@@ -1,0 +1,1923 @@
+{
+  "catalogue": {
+    "name": "Mercenaries",
+    "id": "4568-fee3-1dc6-089f",
+    "authorName": "Franky",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "bacf-9ebb-dbda-57d0",
+    "gameSystemRevision": 4,
+    "revision": 6,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "selectionEntries": [
+      {
+        "name": "Emma",
+        "id": "d01a-3130-d148-a708",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [{"id": "d01a-3130-d148-a708-9f916fbe-6a7d-bb77-2b8a-7b9d16261e99", "hidden": false, "primary": true, "targetId": "9f916fbe-6a7d-bb77-2b8a-7b9d16261e99"}],
+        "constraints": [
+          {
+            "id": "maxInRoster",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": " pts", "typeId": "points", "value": 4}],
+        "infoLinks": [
+          {"id": "a18b-58b7-8bc9-585b", "hidden": false, "targetId": "f410-4431-9afd-85f1", "type": "rule"},
+          {"id": "03f8-1f10-740d-d293", "hidden": false, "targetId": "1612-1ff1-d920-6c4a", "type": "rule"},
+          {"id": "ec50-1877-5b99-6f4c", "hidden": false, "targetId": "23ee-9e3a-02bb-770f", "type": "rule"},
+          {"id": "7196-88f2-6c11-20b9", "hidden": false, "targetId": "0764-cb58-288e-a291", "type": "rule"},
+          {"id": "4771-da19-6f09-fe9b", "hidden": false, "targetId": "df87-9c5e-8e76-fa89", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Emma",
+            "id": "9f66-1c56-5499-0c43",
+            "hidden": false,
+            "typeId": "cdc60b3a-77a5-d5f7-bfbc-40fa73d6902b",
+            "characteristics": [
+              {"name": "Damage Track", "$text": "3", "typeId": "4df5bfce-f8de-996b-b151-521ceb1ffe6a"},
+              {"name": "Move", "$text": "2", "typeId": "44ed5a71-9e76-fc25-7fcf-46df82ff75eb"},
+              {"name": "March Move", "$text": "5", "typeId": "c508ae09-edfd-4a55-8027-3b3099af5e01"},
+              {"name": "Armour", "$text": "S1", "typeId": "ec77eb83-dbb3-c773-ca88-53b8207beda6"},
+              {"name": "Faction", "$text": "Neutral Medical Corps", "typeId": "4a5a-a591-3db6-3a03"}
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": ".45 ACP Pistol",
+            "id": "6aaf-5603-6bfb-1a1f",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "minSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "maxSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " pts", "typeId": "points", "value": 0}],
+            "infoLinks": [{"id": "4bd4-6d57-f2ad-ce9b", "hidden": false, "targetId": "a7ea-d374-dc1f-5d5d", "type": "profile"}]
+          }
+        ]
+      },
+      {
+        "name": "Justine & Co",
+        "id": "4f56-eadc-d98b-8abd",
+        "collective": false,
+        "hidden": false,
+        "type": "unit",
+        "categoryLinks": [{"id": "4f56-eadc-d98b-8abd-76227318-3362-ffb8-0460-e948cda200fe", "hidden": false, "primary": true, "targetId": "76227318-3362-ffb8-0460-e948cda200fe"}],
+        "costs": [{"name": " pts", "typeId": "points", "value": 4}],
+        "infoLinks": [
+          {"id": "ea32-3f1a-47d2-8e96", "hidden": false, "targetId": "b18f-45d7-bd64-7a09", "type": "rule"},
+          {"id": "b133-3b3c-7ce9-c4a9", "hidden": false, "targetId": "f410-4431-9afd-85f1", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Justine & Co",
+            "id": "4aeb-09b1-cc89-5da7",
+            "hidden": false,
+            "typeId": "41b56042-fab9-47e0-0812-0af86fc4caba",
+            "characteristics": [
+              {"name": "Move", "$text": "3", "typeId": "5c7c3ab5-1c5d-c101-1cbb-0352fdf58869"},
+              {"name": "March Move", "$text": "4", "typeId": "b83a82fd-4a1a-6698-9305-9f3ef7e57f48"},
+              {"name": "Armour", "$text": "S1", "typeId": "aeef742f-0070-cf7b-3fba-92583ccc1fd7"},
+              {"name": "Faction", "typeId": "0487-5495-4e79-1ee5"}
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Mechanics' Tools",
+            "id": "6965-5987-41e3-d12a",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "minSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 4
+              },
+              {
+                "id": "maxSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 4
+              }
+            ],
+            "costs": [{"name": " pts", "typeId": "points", "value": 0}],
+            "infoLinks": [{"id": "560c-5a63-c967-1fb1", "hidden": false, "targetId": "0599-38a3-3291-935d", "type": "profile"}]
+          }
+        ]
+      },
+      {
+        "name": "Luisa",
+        "id": "a846-5c7f-4dbe-bbd2",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [{"id": "a846-5c7f-4dbe-bbd2-9f916fbe-6a7d-bb77-2b8a-7b9d16261e99", "hidden": false, "primary": true, "targetId": "9f916fbe-6a7d-bb77-2b8a-7b9d16261e99"}],
+        "constraints": [
+          {
+            "id": "maxInRoster",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": " pts", "typeId": "points", "value": 12}],
+        "infoLinks": [
+          {"id": "d8f8-ddac-2dea-652a", "hidden": false, "targetId": "8388-8a96-5103-f9a7", "type": "rule"},
+          {"id": "b747-537c-de00-bcf4", "hidden": false, "targetId": "f410-4431-9afd-85f1", "type": "rule"},
+          {"id": "5cc2-f41b-131c-c110", "hidden": false, "targetId": "17e1-8ca6-bf45-3af0", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Luisa",
+            "id": "6cc4-cce4-7ed1-035d",
+            "hidden": false,
+            "typeId": "cdc60b3a-77a5-d5f7-bfbc-40fa73d6902b",
+            "characteristics": [
+              {"name": "Damage Track", "$text": "4", "typeId": "4df5bfce-f8de-996b-b151-521ceb1ffe6a"},
+              {"name": "Move", "$text": "3", "typeId": "44ed5a71-9e76-fc25-7fcf-46df82ff75eb"},
+              {"name": "March Move", "$text": "4", "typeId": "c508ae09-edfd-4a55-8027-3b3099af5e01"},
+              {"name": "Armour", "$text": "S1", "typeId": "ec77eb83-dbb3-c773-ca88-53b8207beda6"},
+              {"name": "Faction", "typeId": "4a5a-a591-3db6-3a03"}
+            ]
+          }
+        ],
+        "rules": [{"name": "Pilot: Demolisher", "id": "2c3f-bca5-c165-58a5", "description": "May pilot this vehicle, using her skills while mounted.", "hidden": false}],
+        "selectionEntries": [
+          {
+            "name": "Recoilless Rifle",
+            "id": "ad23-d35f-684a-a780",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "minSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "maxSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " pts", "typeId": "points", "value": 0}],
+            "infoLinks": [
+              {"id": "af2e-7016-b2bc-bfb6", "hidden": false, "targetId": "075e-eb13-e0cf-a35d", "type": "profile"},
+              {"id": "0a91-7fec-754f-260a", "hidden": false, "targetId": "be1f-1707-269f-5ab5", "type": "rule"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mercenary Cleaning Team",
+        "id": "1797-9995-0b26-e0b9",
+        "collective": false,
+        "hidden": false,
+        "type": "unit",
+        "categoryLinks": [{"id": "1797-9995-0b26-e0b9-76227318-3362-ffb8-0460-e948cda200fe", "hidden": false, "primary": true, "targetId": "76227318-3362-ffb8-0460-e948cda200fe"}],
+        "costs": [{"name": " pts", "typeId": "points", "value": 10}],
+        "entryLinks": [
+          {
+            "name": "New EntryLink",
+            "id": "44f9-caa8-1152-7e70",
+            "hidden": false,
+            "targetId": "5537-d29a-674c-653e",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "051c-79bf-3fb7-f675",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 2
+              },
+              {
+                "id": "a0f9-fcc9-753e-b69f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 2
+              }
+            ]
+          }
+        ],
+        "infoLinks": [{"id": "45c7-47ca-8cb4-2ac4", "hidden": false, "targetId": "f410-4431-9afd-85f1", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Mercenary Cleaning Team",
+            "id": "8fc6-865c-fb2c-4815",
+            "hidden": false,
+            "typeId": "41b56042-fab9-47e0-0812-0af86fc4caba",
+            "characteristics": [
+              {"name": "Move", "$text": "3", "typeId": "5c7c3ab5-1c5d-c101-1cbb-0352fdf58869"},
+              {"name": "March Move", "$text": "4", "typeId": "b83a82fd-4a1a-6698-9305-9f3ef7e57f48"},
+              {"name": "Armour", "$text": "S1", "typeId": "aeef742f-0070-cf7b-3fba-92583ccc1fd7"},
+              {"name": "Faction", "typeId": "0487-5495-4e79-1ee5"}
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Auto Grenade Launcher",
+            "id": "6c5f-8b2f-0c0a-ae40",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "minSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 3
+              },
+              {
+                "id": "maxSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 3
+              }
+            ],
+            "costs": [{"name": " pts", "typeId": "points", "value": 0}],
+            "infoLinks": [
+              {"id": "2157-fcbe-9ec6-6ece", "hidden": false, "targetId": "be1f-1707-269f-5ab5", "type": "rule"},
+              {"id": "57e0-9ad0-c5e5-f1b8", "hidden": false, "targetId": "8163-c633-f9ef-260e", "type": "profile"}
+            ]
+          },
+          {
+            "name": "Demo Charge",
+            "id": "2eb7-9640-efae-fe83",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "c64d-b9c5-2b89-b1e5",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 3
+              },
+              {
+                "id": "3698-38a7-2e59-7c28",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 3
+              }
+            ],
+            "costs": [{"name": " pts", "typeId": "points", "value": 0}],
+            "infoLinks": [{"name": "New InfoLink", "id": "8ad1-4818-64d3-ebf3", "hidden": false, "targetId": "9145-f64d-930f-8ced", "type": "profile"}]
+          }
+        ]
+      },
+      {
+        "name": "Mercenary Heavy Machine Gun Squad",
+        "id": "169d-9dab-1cff-61c2",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [{"id": "169d-9dab-1cff-61c2-b65bbf00-a157-7756-2040-07ec6f49cef9", "hidden": false, "primary": true, "targetId": "b65bbf00-a157-7756-2040-07ec6f49cef9"}],
+        "costs": [{"name": " pts", "typeId": "points", "value": 4}],
+        "infoLinks": [
+          {"id": "db5a-4dd6-5cf3-a656", "hidden": false, "targetId": "f410-4431-9afd-85f1", "type": "rule"},
+          {"id": "27b6-5feb-7c45-da9a", "hidden": false, "targetId": "9766-6532-5af3-6daa", "type": "rule"},
+          {"id": "6a8d-20b0-dace-6c1a", "hidden": false, "targetId": "0a5a-e196-7864-a74b", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Mercenary Heavy Machine Gun Squad",
+            "id": "5774-f1f0-da20-42a0",
+            "hidden": false,
+            "typeId": "4c7e5a31-9ebb-047b-c784-ddb4ae29b228",
+            "characteristics": [
+              {"name": "Damage Track", "$text": "3", "typeId": "72c474f9-90b1-5a73-91b5-4c076f0f7cd4"},
+              {"name": "Move", "$text": "1", "typeId": "be56f73e-3478-29fa-0f81-d47357fefa54"},
+              {"name": "March Move", "$text": "3", "typeId": "3b967438-aba2-3297-ea7f-b7ce59b6c178"},
+              {"name": "Armour", "$text": "S1", "typeId": "7e578297-b2b3-8316-ed51-b1b8e4a800c5"},
+              {"name": "Faction", "typeId": "5314-4eb8-e9bf-4727"}
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Heavy Machinegun",
+            "id": "226b-d5b3-f1b0-a994",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "minSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "maxSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " pts", "typeId": "points", "value": 0}],
+            "infoLinks": [{"id": "de99-9ead-c857-b05c", "hidden": false, "targetId": "7810-0695-ddbe-dd0c", "type": "profile"}]
+          },
+          {
+            "name": "Bar Automatic Rifle",
+            "id": "a8d5-388f-e9f2-5b6b",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "minSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "maxSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " pts", "typeId": "points", "value": 0}],
+            "infoLinks": [{"id": "02cf-0673-d8f9-9f4b", "hidden": false, "targetId": "e04f-b513-97ec-4108", "type": "profile"}]
+          },
+          {
+            "name": "Submachine-Gun",
+            "id": "f234-e1a9-4886-86cc",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "minSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "maxSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " pts", "typeId": "points", "value": 0}],
+            "infoLinks": [{"id": "5892-29d0-04fa-6881", "hidden": false, "targetId": "6456-8044-456a-5233", "type": "profile"}]
+          }
+        ]
+      },
+      {
+        "name": "Tanya",
+        "id": "27a3-07de-f855-d5e2",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [{"id": "27a3-07de-f855-d5e2-9f916fbe-6a7d-bb77-2b8a-7b9d16261e99", "hidden": false, "primary": true, "targetId": "9f916fbe-6a7d-bb77-2b8a-7b9d16261e99"}],
+        "constraints": [
+          {
+            "id": "maxInRoster",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": " pts", "typeId": "points", "value": 7}],
+        "infoLinks": [
+          {"id": "3240-ff2d-4bfc-5fef", "hidden": false, "targetId": "f410-4431-9afd-85f1", "type": "rule"},
+          {"id": "05db-d2d0-6dd5-35ce", "hidden": false, "targetId": "6b36-e1c4-18c7-68ec", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Tanya",
+            "id": "c2d6-7ce4-81ee-c363",
+            "hidden": false,
+            "typeId": "cdc60b3a-77a5-d5f7-bfbc-40fa73d6902b",
+            "characteristics": [
+              {"name": "Damage Track", "$text": "4", "typeId": "4df5bfce-f8de-996b-b151-521ceb1ffe6a"},
+              {"name": "Move", "$text": "3", "typeId": "44ed5a71-9e76-fc25-7fcf-46df82ff75eb"},
+              {"name": "March Move", "$text": "4", "typeId": "c508ae09-edfd-4a55-8027-3b3099af5e01"},
+              {"name": "Armour", "$text": "S1", "typeId": "ec77eb83-dbb3-c773-ca88-53b8207beda6"},
+              {"name": "Faction", "typeId": "4a5a-a591-3db6-3a03"}
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Machinegun",
+            "id": "1d0c-578f-73df-21f0",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "minSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "maxSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " pts", "typeId": "points", "value": 0}],
+            "infoLinks": [{"id": "d27d-c779-eb5e-adfe", "hidden": false, "targetId": "bba9-6c34-3836-fb4f", "type": "profile"}]
+          }
+        ]
+      },
+      {
+        "name": "Wrecker",
+        "id": "ea8a-1168-0f9f-7989",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [{"id": "ea8a-1168-0f9f-7989-29b76100-e940-9c92-7f00-a7ad44e2f288", "hidden": false, "primary": true, "targetId": "29b76100-e940-9c92-7f00-a7ad44e2f288"}],
+        "costs": [{"name": " pts", "typeId": "points", "value": 11}],
+        "infoLinks": [
+          {"id": "34bf-e75e-167c-e83e", "hidden": false, "targetId": "f410-4431-9afd-85f1", "type": "rule"},
+          {"id": "bbac-1fcd-0030-70f0", "hidden": false, "targetId": "c1cd-d427-ebe6-b9d3", "type": "rule"},
+          {"id": "0edb-6ef2-6757-03d6", "hidden": false, "targetId": "7005-a571-08c8-f819", "type": "rule"},
+          {"id": "a193-0493-8b14-4db1", "hidden": false, "targetId": "ac5d-c49b-ab17-e288", "type": "rule"}
+        ],
+        "selectionEntries": [
+          {
+            "name": "Quad Antiaircraft Gun (Front)",
+            "id": "2ca0-374b-3c24-33f2",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "minSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "maxSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " pts", "typeId": "points", "value": 0}],
+            "infoLinks": [{"id": "4b10-5531-f558-ad91", "hidden": false, "targetId": "5383-f764-3aaa-4660", "type": "profile"}]
+          },
+          {
+            "name": "Machinegun (Front)",
+            "id": "fa9c-326a-f2dc-9dbb",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "minSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "maxSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " pts", "typeId": "points", "value": 0}],
+            "infoLinks": [{"id": "3b5c-981f-b3f8-6ecb", "hidden": false, "targetId": "d2bc-0540-7123-cec2", "type": "profile"}]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Wrecker",
+            "id": "2d9b-5624-7764-369f",
+            "collective": false,
+            "defaultSelectionEntryId": "5362-6e1c-6954-7493",
+            "hidden": false,
+            "constraints": [
+              {
+                "id": "minSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "maxSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Wrecker",
+                "id": "5362-6e1c-6954-7493",
+                "collective": false,
+                "hidden": false,
+                "type": "model",
+                "constraints": [
+                  {
+                    "id": "maxSelections",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": " pts", "typeId": "points", "value": 0}],
+                "profiles": [
+                  {
+                    "name": "Wrecker",
+                    "id": "a723-6228-0c57-e618",
+                    "hidden": false,
+                    "typeId": "d4bd9345-c104-05b5-dba6-bf84d1163625",
+                    "characteristics": [
+                      {"name": "Damage Track", "$text": "4", "typeId": "ed36b802-b164-ae0b-b441-ebb8e45606b6"},
+                      {"name": "Move", "$text": "3", "typeId": "8b340ad2-9af2-327e-d1ca-675097d3b3c5"},
+                      {"name": "March Move", "$text": "4", "typeId": "7efff746-66c0-c275-304c-6339ff7da914"},
+                      {"name": "Armour", "$text": "V3", "typeId": "214b6458-e958-a048-8f8c-de17188dae7b"},
+                      {"name": "Faction", "typeId": "fbc5-7d00-f9de-443e"}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Demolisher",
+                "id": "5e87-18c1-16d3-854b",
+                "collective": false,
+                "hidden": false,
+                "type": "model",
+                "constraints": [
+                  {
+                    "id": "maxSelections",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "maxInRoster",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": " pts", "typeId": "points", "value": 2}],
+                "profiles": [
+                  {
+                    "name": "Demolisher",
+                    "id": "c3e5-b898-4fe5-2cfe",
+                    "hidden": false,
+                    "typeId": "d4bd9345-c104-05b5-dba6-bf84d1163625",
+                    "characteristics": [
+                      {"name": "Damage Track", "$text": "4", "typeId": "ed36b802-b164-ae0b-b441-ebb8e45606b6"},
+                      {"name": "Move", "$text": "3", "typeId": "8b340ad2-9af2-327e-d1ca-675097d3b3c5"},
+                      {"name": "March Move", "$text": "4", "typeId": "7efff746-66c0-c275-304c-6339ff7da914"},
+                      {"name": "Armour", "$text": "V3", "typeId": "214b6458-e958-a048-8f8c-de17188dae7b"},
+                      {"name": "Faction", "typeId": "fbc5-7d00-f9de-443e"}
+                    ]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "Pilot: Luisa",
+                    "id": "206d-8dc7-363a-0a43",
+                    "description": "Only Luisa can pilot the Demolisher, but it can be fielded without her. The Demolisher is unique so only one may be fielded.",
+                    "hidden": false
+                  }
+                ],
+                "selectionEntries": [
+                  {
+                    "name": "Recoilless Rifle (Turret)",
+                    "id": "a3ab-18e4-06ab-c9cf",
+                    "collective": false,
+                    "hidden": false,
+                    "type": "upgrade",
+                    "constraints": [
+                      {
+                        "id": "minSelections",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": false,
+                        "type": "min",
+                        "value": 1
+                      },
+                      {
+                        "id": "maxSelections",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": false,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ],
+                    "costs": [{"name": " pts", "typeId": "points", "value": 0}],
+                    "infoLinks": [
+                      {"id": "ed17-dfa8-1e38-bfef", "hidden": false, "targetId": "ccdb-b683-e1ad-9b7c", "type": "profile"},
+                      {"id": "d8e8-59bf-99f6-1371", "hidden": false, "targetId": "be1f-1707-269f-5ab5", "type": "rule"}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Silence",
+        "id": "c71b-ad3f-b038-46e1",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [{"id": "c71b-ad3f-b038-46e1-9f916fbe-6a7d-bb77-2b8a-7b9d16261e99", "hidden": false, "primary": true, "targetId": "9f916fbe-6a7d-bb77-2b8a-7b9d16261e99"}],
+        "constraints": [
+          {
+            "id": "6ce4-25e6-07e6-355a",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": " pts", "typeId": "points", "value": 6}],
+        "infoLinks": [
+          {"name": "New InfoLink", "id": "a5d2-df2b-5721-67dd", "hidden": false, "targetId": "0a5a-e196-7864-a74b", "type": "rule"},
+          {"name": "New InfoLink", "id": "8a6b-5c33-0fb1-a7e2", "hidden": false, "targetId": "52ec-faeb-4b70-18df", "type": "rule"},
+          {"name": "New InfoLink", "id": "ae1a-5844-c25e-1cf2", "hidden": false, "targetId": "f410-4431-9afd-85f1", "type": "rule"},
+          {"name": "New InfoLink", "id": "3579-ffc9-87c4-f1c6", "hidden": false, "targetId": "60e9-4b58-e3eb-bb32", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Silence",
+            "id": "61f9-cb99-36b5-381d",
+            "hidden": false,
+            "typeId": "cdc60b3a-77a5-d5f7-bfbc-40fa73d6902b",
+            "typeName": "Heroes",
+            "characteristics": [
+              {"name": "Damage Track", "$text": "4", "typeId": "4df5bfce-f8de-996b-b151-521ceb1ffe6a"},
+              {"name": "Move", "$text": "2", "typeId": "44ed5a71-9e76-fc25-7fcf-46df82ff75eb"},
+              {"name": "March Move", "$text": "5", "typeId": "c508ae09-edfd-4a55-8027-3b3099af5e01"},
+              {"name": "Armour", "$text": "S1", "typeId": "ec77eb83-dbb3-c773-ca88-53b8207beda6"},
+              {"name": "Faction", "typeId": "4a5a-a591-3db6-3a03"}
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Sniper Rifle",
+            "id": "61d8-1415-160e-3216",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "b0db-8eb3-1cfc-d459",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "7652-bde5-b005-7726",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " pts", "typeId": "points", "value": 0}],
+            "infoLinks": [
+              {"name": "New InfoLink", "id": "38a9-ca3a-a13e-15b2", "hidden": false, "targetId": "6906-e7d5-72f1-799c", "type": "profile"},
+              {"name": "New InfoLink", "id": "2c53-bca0-74df-5b00", "hidden": false, "targetId": "6992-7508-bace-c186", "type": "rule"}
+            ]
+          },
+          {
+            "name": "Pistol",
+            "id": "5864-c15a-69ef-27ab",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "ee6b-ed4b-eb2a-06f2",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "e43b-9702-e22b-a8a6",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " pts", "typeId": "points", "value": 0}],
+            "infoLinks": [{"name": "New InfoLink", "id": "49cc-7071-356f-4c46", "hidden": false, "targetId": "f67d-1ab8-c78f-1dd6", "type": "profile"}]
+          }
+        ]
+      },
+      {
+        "name": "Mercenary Heavy Machine Gun Squad II",
+        "id": "16b1-7ec8-6805-c95a",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [{"id": "16b1-7ec8-6805-c95a-b65bbf00-a157-7756-2040-07ec6f49cef9", "hidden": false, "primary": true, "targetId": "b65bbf00-a157-7756-2040-07ec6f49cef9"}],
+        "costs": [{"name": " pts", "typeId": "points", "value": 4}],
+        "infoLinks": [
+          {"name": "New InfoLink", "id": "5ab3-2a3a-3390-54ee", "hidden": false, "targetId": "0a5a-e196-7864-a74b", "type": "rule"},
+          {"name": "New InfoLink", "id": "4f81-12a0-428d-74d5", "hidden": false, "targetId": "f410-4431-9afd-85f1", "type": "rule"},
+          {"name": "New InfoLink", "id": "1674-de64-bdfb-7189", "hidden": false, "targetId": "9766-6532-5af3-6daa", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Mercenary Heavy Machine Gun Squad II",
+            "id": "01e6-1c09-48b3-4855",
+            "hidden": false,
+            "typeId": "4c7e5a31-9ebb-047b-c784-ddb4ae29b228",
+            "typeName": "Support Weapons/Fortifications",
+            "characteristics": [
+              {"name": "Damage Track", "$text": "3", "typeId": "72c474f9-90b1-5a73-91b5-4c076f0f7cd4"},
+              {"name": "Move", "$text": "1", "typeId": "be56f73e-3478-29fa-0f81-d47357fefa54"},
+              {"name": "March Move", "$text": "3", "typeId": "3b967438-aba2-3297-ea7f-b7ce59b6c178"},
+              {"name": "Armour", "$text": "S1", "typeId": "7e578297-b2b3-8316-ed51-b1b8e4a800c5"},
+              {"name": "Faction", "typeId": "5314-4eb8-e9bf-4727"}
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Heavy Machinegun",
+            "id": "c2b1-2e99-1394-c1fc",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "71fd-1afa-0c22-e435",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "1ae9-78a0-13f9-5cb6",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " pts", "typeId": "points", "value": 0}],
+            "infoLinks": [{"id": "6398-c588-4491-e768", "hidden": false, "targetId": "7810-0695-ddbe-dd0c", "type": "profile"}]
+          },
+          {
+            "name": "Submachine-Gun",
+            "id": "88aa-6a38-7724-ce3b",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "5f13-e2db-d963-98d8",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "b0b8-20a0-a45d-9ace",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " pts", "typeId": "points", "value": 0}],
+            "infoLinks": [{"id": "a0fb-878a-f9af-bd30", "hidden": false, "targetId": "6456-8044-456a-5233", "type": "profile"}]
+          },
+          {
+            "name": "Shotgun",
+            "id": "69ce-4b55-2da7-cae7",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "fb7b-52e6-c4d8-d896",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "eb92-2919-4947-3341",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " pts", "typeId": "points", "value": 0}],
+            "infoLinks": [{"name": "New InfoLink", "id": "ca0d-9998-4e12-c2c9", "hidden": false, "targetId": "771d-e6c9-992f-8491", "type": "profile"}]
+          }
+        ]
+      },
+      {
+        "name": "Meatgrinder",
+        "id": "8d2e-b359-20b8-bae6",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "a92f-aef0-99a8-bcb6", "hidden": false, "primary": true, "targetId": "29b76100-e940-9c92-7f00-a7ad44e2f288"}],
+        "costs": [{"name": " pts", "typeId": "points", "value": 13}],
+        "infoLinks": [{"name": "Mercenary", "id": "bf5a-6b96-d5a4-c203", "hidden": false, "targetId": "f410-4431-9afd-85f1", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Meatgrinder",
+            "id": "c487-32b0-0f47-1a71",
+            "hidden": false,
+            "typeId": "d4bd9345-c104-05b5-dba6-bf84d1163625",
+            "typeName": "Vehicle",
+            "characteristics": [
+              {"name": "Damage Track", "$text": "6", "typeId": "ed36b802-b164-ae0b-b441-ebb8e45606b6"},
+              {"name": "Move", "$text": "3", "typeId": "8b340ad2-9af2-327e-d1ca-675097d3b3c5"},
+              {"name": "March Move", "$text": "5", "typeId": "7efff746-66c0-c275-304c-6339ff7da914"},
+              {"name": "Armour", "$text": "V3", "typeId": "214b6458-e958-a048-8f8c-de17188dae7b"},
+              {"name": "Faction", "typeId": "fbc5-7d00-f9de-443e"}
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Heavy Mortar (Front)",
+            "id": "2ad3-c091-2d45-54b7",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "0dff-ec90-b666-64ed",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "071e-0a66-54d3-3831",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " pts", "typeId": "points", "value": 0}],
+            "infoLinks": [
+              {"name": "Artillery", "id": "f170-58ca-547a-e9be", "hidden": false, "targetId": "9f01-cd98-0325-296d", "type": "rule"},
+              {"name": "Heavy Mortar (Front)", "id": "2f79-ab62-4161-447f", "hidden": false, "targetId": "8e20-116c-8df4-5506", "type": "profile"}
+            ]
+          },
+          {
+            "name": "Heavy Machinegun (Front)",
+            "id": "0e4c-4105-3599-a3b0",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "0b3d-601f-2983-284e",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "a2b7-ffc2-12c3-0ae3",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " pts", "typeId": "points", "value": 0}],
+            "infoLinks": [{"name": "Heavy Machinegun (Front)", "id": "977d-707c-c207-32a9", "hidden": false, "targetId": "bd1e-1f45-0d17-3138", "type": "profile"}]
+          },
+          {
+            "name": "Heavy Machinegun (Rear)",
+            "id": "9ea8-ba4d-d3aa-2248",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "b609-6460-25af-88e6",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "c513-96ff-8547-4517",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " pts", "typeId": "points", "value": 0}],
+            "infoLinks": [{"name": "Heavy Machinegun (Rear)", "id": "c41c-8fee-33ab-8aad", "hidden": false, "targetId": "7ec9-b950-81e7-b912", "type": "profile"}]
+          },
+          {
+            "name": "Heavy Machinegun (Left)",
+            "id": "a2bc-3413-426b-c9a3",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "2e63-855b-363d-7653",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "f43e-8e90-74f7-1d38",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " pts", "typeId": "points", "value": 0}],
+            "infoLinks": [{"name": "Heavy Machinegun (Left)", "id": "8b72-3c9c-5edd-24e8", "hidden": false, "targetId": "884f-c9a1-67e2-0c67", "type": "profile"}]
+          },
+          {
+            "name": "Heavy Machinegun (Right)",
+            "id": "7dc1-0087-0b0a-6db9",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "e5cc-ecc7-084d-9d44",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "c47f-ab42-db49-b475",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " pts", "typeId": "points", "value": 0}],
+            "infoLinks": [{"name": "Heavy Machinegun (Right)", "id": "913c-7b6e-0a37-d296", "hidden": false, "targetId": "753a-4728-5384-5abc", "type": "profile"}]
+          }
+        ]
+      },
+      {
+        "name": "Pulverizer",
+        "id": "38fc-586c-208f-0773",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "c70c-51c5-1fbf-c276", "hidden": false, "primary": true, "targetId": "29b76100-e940-9c92-7f00-a7ad44e2f288"}],
+        "costs": [{"name": " pts", "typeId": "points", "value": 14}],
+        "infoLinks": [
+          {"name": "Mercenary", "id": "f76c-a07c-8c83-7c76", "hidden": false, "targetId": "f410-4431-9afd-85f1", "type": "rule"},
+          {"name": "Scout", "id": "7329-8682-5d04-158e", "hidden": false, "targetId": "2c87-2079-b7dd-9363", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Pulverizer",
+            "id": "a0f4-86fd-381f-96bb",
+            "hidden": false,
+            "typeId": "d4bd9345-c104-05b5-dba6-bf84d1163625",
+            "typeName": "Vehicle",
+            "characteristics": [
+              {"name": "Damage Track", "$text": "6", "typeId": "ed36b802-b164-ae0b-b441-ebb8e45606b6"},
+              {"name": "Move", "$text": "3", "typeId": "8b340ad2-9af2-327e-d1ca-675097d3b3c5"},
+              {"name": "March Move", "$text": "5", "typeId": "7efff746-66c0-c275-304c-6339ff7da914"},
+              {"name": "Armour", "$text": "V3", "typeId": "214b6458-e958-a048-8f8c-de17188dae7b"},
+              {"name": "Faction", "typeId": "fbc5-7d00-f9de-443e"}
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Recoilless Gun (Front)",
+            "id": "54b6-7f8d-d683-f0b8",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "99c2-6329-5a5a-733c",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 2
+              },
+              {
+                "id": "7d9d-509f-da3b-8bce",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 2
+              }
+            ],
+            "costs": [{"name": " pts", "typeId": "points", "value": 0}],
+            "infoLinks": [
+              {"name": "Grenade", "id": "9729-1856-2e76-ed07", "hidden": false, "targetId": "be1f-1707-269f-5ab5", "type": "rule"},
+              {"name": "Recoilless Gun (Front)", "id": "19ca-eab2-6453-46b2", "hidden": false, "targetId": "ed9f-d89a-4db3-014d", "type": "profile"}
+            ]
+          },
+          {
+            "name": "Heavy Machinegun (Front)",
+            "id": "8989-d541-cffc-5817",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "9d80-1eed-b52c-919c",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "1578-98fc-27af-a7f1",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " pts", "typeId": "points", "value": 0}],
+            "infoLinks": [{"name": "Heavy Machinegun (Front)", "id": "dbc8-7202-0180-b1a2", "hidden": false, "targetId": "bd1e-1f45-0d17-3138", "type": "profile"}]
+          },
+          {
+            "name": "Twin Heavy Machinegun (Front)",
+            "id": "cc08-055b-74e4-6f28",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "20a6-fec7-057e-4001",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "a2ca-de10-173e-a83e",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " pts", "typeId": "points", "value": 0}],
+            "infoLinks": [{"name": "Twin Heavy Machinegun (Front)", "id": "a753-1e75-1f2c-5a61", "hidden": false, "targetId": "94b4-997e-9463-ea47", "type": "profile"}]
+          }
+        ]
+      }
+    ],
+    "sharedProfiles": [
+      {
+        "name": ".45 ACP Pistol",
+        "id": "a7ea-d374-dc1f-5d5d",
+        "hidden": false,
+        "typeId": "6c4a1962-9409-6e62-9ea7-e81c4935e4fa",
+        "characteristics": [
+          {"name": "Range", "$text": "2", "typeId": "382f5f95-0919-db20-9901-aa54bc211abf"},
+          {"name": "S1", "$text": "3/1", "typeId": "9f313303-9a76-64ed-6657-e3b18cdf1022"},
+          {"name": "S2", "$text": "3/1", "typeId": "2fd57814-fb96-57cd-78e5-048c1e328a32"},
+          {"name": "S3", "$text": "2/1", "typeId": "21997c06-620b-2dc6-ee6e-6f0b06c06b70"},
+          {"name": "S4", "typeId": "9c177689-a2b1-8777-3393-bd39db9df6f9"},
+          {"name": "V1", "$text": "2/1", "typeId": "4acce298-41c6-ac29-6442-02e5e62f87c5"},
+          {"name": "V2", "typeId": "ae7f079b-f6e8-7a6e-fa5c-8448667ec4e1"},
+          {"name": "V3", "typeId": "dd544bcd-65f3-f239-9b6e-9a6342e49bac"},
+          {"name": "V4", "typeId": "a27828e2-0dc0-c181-1699-be334623891d"},
+          {"name": "V5", "typeId": "2e7ddbf4-add2-7c6a-e399-f39b4cddfb09"},
+          {"name": "V6", "typeId": "c95029b6-a3de-69ec-b3f0-0d150370d270"},
+          {"name": "V7", "typeId": "36d7cfe6-023a-0dfe-e736-812d153c4fcc"},
+          {"name": "A1", "typeId": "bf377d08-6032-da4e-f38f-cab8ee40f265"},
+          {"name": "A2", "typeId": "0bb5675e-a53a-ae6e-1343-8cd4702c13a7"},
+          {"name": "A3", "typeId": "4946dc2d-5011-1098-c878-f3ab3bc8477f"}
+        ]
+      },
+      {
+        "name": "Auto Grenade Launcher",
+        "id": "8163-c633-f9ef-260e",
+        "hidden": false,
+        "typeId": "6c4a1962-9409-6e62-9ea7-e81c4935e4fa",
+        "characteristics": [
+          {"name": "Range", "$text": "3", "typeId": "382f5f95-0919-db20-9901-aa54bc211abf"},
+          {"name": "S1", "$text": "*/1", "typeId": "9f313303-9a76-64ed-6657-e3b18cdf1022"},
+          {"name": "S2", "$text": "*/1", "typeId": "2fd57814-fb96-57cd-78e5-048c1e328a32"},
+          {"name": "S3", "$text": "*/1", "typeId": "21997c06-620b-2dc6-ee6e-6f0b06c06b70"},
+          {"name": "S4", "$text": "*/1", "typeId": "9c177689-a2b1-8777-3393-bd39db9df6f9"},
+          {"name": "V1", "$text": "2/2", "typeId": "4acce298-41c6-ac29-6442-02e5e62f87c5"},
+          {"name": "V2", "$text": "2/1", "typeId": "ae7f079b-f6e8-7a6e-fa5c-8448667ec4e1"},
+          {"name": "V3", "$text": "1/1", "typeId": "dd544bcd-65f3-f239-9b6e-9a6342e49bac"},
+          {"name": "V4", "typeId": "a27828e2-0dc0-c181-1699-be334623891d"},
+          {"name": "V5", "typeId": "2e7ddbf4-add2-7c6a-e399-f39b4cddfb09"},
+          {"name": "V6", "typeId": "c95029b6-a3de-69ec-b3f0-0d150370d270"},
+          {"name": "V7", "typeId": "36d7cfe6-023a-0dfe-e736-812d153c4fcc"},
+          {"name": "A1", "typeId": "bf377d08-6032-da4e-f38f-cab8ee40f265"},
+          {"name": "A2", "typeId": "0bb5675e-a53a-ae6e-1343-8cd4702c13a7"},
+          {"name": "A3", "typeId": "4946dc2d-5011-1098-c878-f3ab3bc8477f"}
+        ]
+      },
+      {
+        "name": "Bar Automatic Rifle",
+        "id": "e04f-b513-97ec-4108",
+        "hidden": false,
+        "page": 0,
+        "typeId": "6c4a1962-9409-6e62-9ea7-e81c4935e4fa",
+        "characteristics": [
+          {"name": "Range", "$text": "6", "typeId": "382f5f95-0919-db20-9901-aa54bc211abf"},
+          {"name": "S1", "$text": "4/1", "typeId": "9f313303-9a76-64ed-6657-e3b18cdf1022"},
+          {"name": "S2", "$text": "3/1", "typeId": "2fd57814-fb96-57cd-78e5-048c1e328a32"},
+          {"name": "S3", "$text": "2/1", "typeId": "21997c06-620b-2dc6-ee6e-6f0b06c06b70"},
+          {"name": "S4", "$text": "1/1", "typeId": "9c177689-a2b1-8777-3393-bd39db9df6f9"},
+          {"name": "V1", "$text": "2/1", "typeId": "4acce298-41c6-ac29-6442-02e5e62f87c5"},
+          {"name": "V2", "$text": "1/1", "typeId": "ae7f079b-f6e8-7a6e-fa5c-8448667ec4e1"},
+          {"name": "V3", "typeId": "dd544bcd-65f3-f239-9b6e-9a6342e49bac"},
+          {"name": "V4", "typeId": "a27828e2-0dc0-c181-1699-be334623891d"},
+          {"name": "V5", "typeId": "2e7ddbf4-add2-7c6a-e399-f39b4cddfb09"},
+          {"name": "V6", "typeId": "c95029b6-a3de-69ec-b3f0-0d150370d270"},
+          {"name": "V7", "typeId": "36d7cfe6-023a-0dfe-e736-812d153c4fcc"},
+          {"name": "A1", "$text": "2/1", "typeId": "bf377d08-6032-da4e-f38f-cab8ee40f265"},
+          {"name": "A2", "$text": "1/1", "typeId": "0bb5675e-a53a-ae6e-1343-8cd4702c13a7"},
+          {"name": "A3", "typeId": "4946dc2d-5011-1098-c878-f3ab3bc8477f"}
+        ]
+      },
+      {
+        "name": "Heavy Machinegun",
+        "id": "7810-0695-ddbe-dd0c",
+        "hidden": false,
+        "typeId": "6c4a1962-9409-6e62-9ea7-e81c4935e4fa",
+        "characteristics": [
+          {"name": "Range", "$text": "8", "typeId": "382f5f95-0919-db20-9901-aa54bc211abf"},
+          {"name": "S1", "$text": "9/1", "typeId": "9f313303-9a76-64ed-6657-e3b18cdf1022"},
+          {"name": "S2", "$text": "9/1", "typeId": "2fd57814-fb96-57cd-78e5-048c1e328a32"},
+          {"name": "S3", "$text": "7/1", "typeId": "21997c06-620b-2dc6-ee6e-6f0b06c06b70"},
+          {"name": "S4", "$text": "5/1", "typeId": "9c177689-a2b1-8777-3393-bd39db9df6f9"},
+          {"name": "V1", "$text": "5/2", "typeId": "4acce298-41c6-ac29-6442-02e5e62f87c5"},
+          {"name": "V2", "$text": "4/1", "typeId": "ae7f079b-f6e8-7a6e-fa5c-8448667ec4e1"},
+          {"name": "V3", "$text": "1/1", "typeId": "dd544bcd-65f3-f239-9b6e-9a6342e49bac"},
+          {"name": "V4", "typeId": "a27828e2-0dc0-c181-1699-be334623891d"},
+          {"name": "V5", "typeId": "2e7ddbf4-add2-7c6a-e399-f39b4cddfb09"},
+          {"name": "V6", "typeId": "c95029b6-a3de-69ec-b3f0-0d150370d270"},
+          {"name": "V7", "typeId": "36d7cfe6-023a-0dfe-e736-812d153c4fcc"},
+          {"name": "A1", "typeId": "bf377d08-6032-da4e-f38f-cab8ee40f265"},
+          {"name": "A2", "typeId": "0bb5675e-a53a-ae6e-1343-8cd4702c13a7"},
+          {"name": "A3", "typeId": "4946dc2d-5011-1098-c878-f3ab3bc8477f"}
+        ]
+      },
+      {
+        "name": "Machinegun",
+        "id": "bba9-6c34-3836-fb4f",
+        "hidden": false,
+        "typeId": "6c4a1962-9409-6e62-9ea7-e81c4935e4fa",
+        "characteristics": [
+          {"name": "Range", "$text": "6", "typeId": "382f5f95-0919-db20-9901-aa54bc211abf"},
+          {"name": "S1", "$text": "5/1", "typeId": "9f313303-9a76-64ed-6657-e3b18cdf1022"},
+          {"name": "S2", "$text": "5/1", "typeId": "2fd57814-fb96-57cd-78e5-048c1e328a32"},
+          {"name": "S3", "$text": "4/1", "typeId": "21997c06-620b-2dc6-ee6e-6f0b06c06b70"},
+          {"name": "S4", "$text": "3/1", "typeId": "9c177689-a2b1-8777-3393-bd39db9df6f9"},
+          {"name": "V1", "$text": "3/2", "typeId": "4acce298-41c6-ac29-6442-02e5e62f87c5"},
+          {"name": "V2", "$text": "2/1", "typeId": "ae7f079b-f6e8-7a6e-fa5c-8448667ec4e1"},
+          {"name": "V3", "$text": "2/1", "typeId": "dd544bcd-65f3-f239-9b6e-9a6342e49bac"},
+          {"name": "V4", "$text": "1/1", "typeId": "a27828e2-0dc0-c181-1699-be334623891d"},
+          {"name": "V5", "typeId": "2e7ddbf4-add2-7c6a-e399-f39b4cddfb09"},
+          {"name": "V6", "typeId": "c95029b6-a3de-69ec-b3f0-0d150370d270"},
+          {"name": "V7", "typeId": "36d7cfe6-023a-0dfe-e736-812d153c4fcc"},
+          {"name": "A1", "$text": "2/2", "typeId": "bf377d08-6032-da4e-f38f-cab8ee40f265"},
+          {"name": "A2", "$text": "1/2", "typeId": "0bb5675e-a53a-ae6e-1343-8cd4702c13a7"},
+          {"name": "A3", "$text": "1/1", "typeId": "4946dc2d-5011-1098-c878-f3ab3bc8477f"}
+        ]
+      },
+      {
+        "name": "Machinegun (Front)",
+        "id": "d2bc-0540-7123-cec2",
+        "hidden": false,
+        "typeId": "51c4cbbb-feba-838a-7356-102e85a51f40",
+        "characteristics": [
+          {"name": "Mount", "$text": "Front", "typeId": "99494c30-5918-3c34-1ea8-5fd2a3a35acb"},
+          {"name": "Range", "$text": "6", "typeId": "426f1c91-a24f-c1e2-6c5d-0b056331dce9"},
+          {"name": "S1", "$text": "5/1", "typeId": "94a02cd9-1473-5a5f-cddd-481f20e61e6e"},
+          {"name": "S2", "$text": "5/1", "typeId": "a645204b-207d-2884-31bf-8052544ebe0f"},
+          {"name": "S3", "$text": "4/1", "typeId": "144e20c5-fee5-87da-d142-43ee6b13d299"},
+          {"name": "S4", "$text": "3/1", "typeId": "f8d85935-dc8d-ceab-8b59-185af6f07e21"},
+          {"name": "V1", "$text": "3/2", "typeId": "0de14c52-6109-fb8b-5a4c-f4c28b81e724"},
+          {"name": "V2", "$text": "2/1", "typeId": "29107c7e-8b35-1352-b0e8-8274e8e6fc9e"},
+          {"name": "V3", "$text": "1/1", "typeId": "7d9919e5-211a-348d-cc4a-75f55034aa11"},
+          {"name": "V4", "typeId": "5126abc7-3036-a560-473c-95cc1ebd6083"},
+          {"name": "V5", "typeId": "10e6e9fa-5b07-60dc-7c21-43fd0d321972"},
+          {"name": "V6", "typeId": "f39e3ba7-f0f6-e8ce-827a-9f36af8f38b4"},
+          {"name": "V7", "typeId": "95df902a-0d91-60fb-d501-90ba12e3f256"},
+          {"name": "A1", "$text": "2/2", "typeId": "3d408739-3c19-38d5-ed51-5bf195e61965"},
+          {"name": "A2", "$text": "1/2", "typeId": "afbc1d34-5c65-e8a1-6226-84be59697cb2"},
+          {"name": "A3", "$text": "1/1", "typeId": "cc1450a8-c61a-8715-5533-2175e5923685"}
+        ]
+      },
+      {
+        "name": "Mechanics' Tools",
+        "id": "0599-38a3-3291-935d",
+        "hidden": false,
+        "typeId": "6c4a1962-9409-6e62-9ea7-e81c4935e4fa",
+        "characteristics": [
+          {"name": "Range", "$text": "C", "typeId": "382f5f95-0919-db20-9901-aa54bc211abf"},
+          {"name": "S1", "$text": "1/1", "typeId": "9f313303-9a76-64ed-6657-e3b18cdf1022"},
+          {"name": "S2", "$text": "1/1", "typeId": "2fd57814-fb96-57cd-78e5-048c1e328a32"},
+          {"name": "S3", "$text": "1/1", "typeId": "21997c06-620b-2dc6-ee6e-6f0b06c06b70"},
+          {"name": "S4", "$text": "1/1", "typeId": "9c177689-a2b1-8777-3393-bd39db9df6f9"},
+          {"name": "V1", "$text": "1/2", "typeId": "4acce298-41c6-ac29-6442-02e5e62f87c5"},
+          {"name": "V2", "$text": "1/2", "typeId": "ae7f079b-f6e8-7a6e-fa5c-8448667ec4e1"},
+          {"name": "V3", "$text": "1/2", "typeId": "dd544bcd-65f3-f239-9b6e-9a6342e49bac"},
+          {"name": "V4", "$text": "1/2", "typeId": "a27828e2-0dc0-c181-1699-be334623891d"},
+          {"name": "V5", "$text": "1/2", "typeId": "2e7ddbf4-add2-7c6a-e399-f39b4cddfb09"},
+          {"name": "V6", "$text": "1/2", "typeId": "c95029b6-a3de-69ec-b3f0-0d150370d270"},
+          {"name": "V7", "$text": "1/2", "typeId": "36d7cfe6-023a-0dfe-e736-812d153c4fcc"},
+          {"name": "A1", "typeId": "bf377d08-6032-da4e-f38f-cab8ee40f265"},
+          {"name": "A2", "typeId": "0bb5675e-a53a-ae6e-1343-8cd4702c13a7"},
+          {"name": "A3", "typeId": "4946dc2d-5011-1098-c878-f3ab3bc8477f"}
+        ]
+      },
+      {
+        "name": "Quad Anti-Aircraft Guns (Front)",
+        "id": "5383-f764-3aaa-4660",
+        "hidden": false,
+        "typeId": "51c4cbbb-feba-838a-7356-102e85a51f40",
+        "characteristics": [
+          {"name": "Mount", "$text": "Front", "typeId": "99494c30-5918-3c34-1ea8-5fd2a3a35acb"},
+          {"name": "Range", "$text": "8", "typeId": "426f1c91-a24f-c1e2-6c5d-0b056331dce9"},
+          {"name": "S1", "$text": "9/1", "typeId": "94a02cd9-1473-5a5f-cddd-481f20e61e6e"},
+          {"name": "S2", "$text": "9/1", "typeId": "a645204b-207d-2884-31bf-8052544ebe0f"},
+          {"name": "S3", "$text": "9/1", "typeId": "144e20c5-fee5-87da-d142-43ee6b13d299"},
+          {"name": "S4", "$text": "7/1", "typeId": "f8d85935-dc8d-ceab-8b59-185af6f07e21"},
+          {"name": "V1", "$text": "5/3", "typeId": "0de14c52-6109-fb8b-5a4c-f4c28b81e724"},
+          {"name": "V2", "$text": "5/2", "typeId": "29107c7e-8b35-1352-b0e8-8274e8e6fc9e"},
+          {"name": "V3", "$text": "3/2", "typeId": "7d9919e5-211a-348d-cc4a-75f55034aa11"},
+          {"name": "V4", "$text": "1/1", "typeId": "5126abc7-3036-a560-473c-95cc1ebd6083"},
+          {"name": "V5", "$text": "1/1", "typeId": "10e6e9fa-5b07-60dc-7c21-43fd0d321972"},
+          {"name": "V6", "typeId": "f39e3ba7-f0f6-e8ce-827a-9f36af8f38b4"},
+          {"name": "V7", "typeId": "95df902a-0d91-60fb-d501-90ba12e3f256"},
+          {"name": "A1", "$text": "4/2", "typeId": "3d408739-3c19-38d5-ed51-5bf195e61965"},
+          {"name": "A2", "$text": "3/2", "typeId": "afbc1d34-5c65-e8a1-6226-84be59697cb2"},
+          {"name": "A3", "$text": "1/1", "typeId": "cc1450a8-c61a-8715-5533-2175e5923685"}
+        ]
+      },
+      {
+        "name": "Recoilless Rifle",
+        "id": "075e-eb13-e0cf-a35d",
+        "hidden": false,
+        "typeId": "6c4a1962-9409-6e62-9ea7-e81c4935e4fa",
+        "characteristics": [
+          {"name": "Range", "$text": "8", "typeId": "382f5f95-0919-db20-9901-aa54bc211abf"},
+          {"name": "S1", "$text": "*/1", "typeId": "9f313303-9a76-64ed-6657-e3b18cdf1022"},
+          {"name": "S2", "$text": "*/1", "typeId": "2fd57814-fb96-57cd-78e5-048c1e328a32"},
+          {"name": "S3", "$text": "*/1", "typeId": "21997c06-620b-2dc6-ee6e-6f0b06c06b70"},
+          {"name": "S4", "$text": "*/1", "typeId": "9c177689-a2b1-8777-3393-bd39db9df6f9"},
+          {"name": "V1", "$text": "1/#", "typeId": "4acce298-41c6-ac29-6442-02e5e62f87c5"},
+          {"name": "V2", "$text": "1/3", "typeId": "ae7f079b-f6e8-7a6e-fa5c-8448667ec4e1"},
+          {"name": "V3", "$text": "1/3", "typeId": "dd544bcd-65f3-f239-9b6e-9a6342e49bac"},
+          {"name": "V4", "$text": "1/2", "typeId": "a27828e2-0dc0-c181-1699-be334623891d"},
+          {"name": "V5", "$text": "1/2", "typeId": "2e7ddbf4-add2-7c6a-e399-f39b4cddfb09"},
+          {"name": "V6", "$text": "1/1", "typeId": "c95029b6-a3de-69ec-b3f0-0d150370d270"},
+          {"name": "V7", "$text": "1/1", "typeId": "36d7cfe6-023a-0dfe-e736-812d153c4fcc"},
+          {"name": "A1", "typeId": "bf377d08-6032-da4e-f38f-cab8ee40f265"},
+          {"name": "A2", "typeId": "0bb5675e-a53a-ae6e-1343-8cd4702c13a7"},
+          {"name": "A3", "typeId": "4946dc2d-5011-1098-c878-f3ab3bc8477f"}
+        ]
+      },
+      {
+        "name": "Recoilless Rifle (Turret)",
+        "id": "ccdb-b683-e1ad-9b7c",
+        "hidden": false,
+        "typeId": "51c4cbbb-feba-838a-7356-102e85a51f40",
+        "characteristics": [
+          {"name": "Mount", "$text": "Turret", "typeId": "99494c30-5918-3c34-1ea8-5fd2a3a35acb"},
+          {"name": "Range", "$text": "8", "typeId": "426f1c91-a24f-c1e2-6c5d-0b056331dce9"},
+          {"name": "S1", "$text": "*/1", "typeId": "94a02cd9-1473-5a5f-cddd-481f20e61e6e"},
+          {"name": "S2", "$text": "*/1", "typeId": "a645204b-207d-2884-31bf-8052544ebe0f"},
+          {"name": "S3", "$text": "*/1", "typeId": "144e20c5-fee5-87da-d142-43ee6b13d299"},
+          {"name": "S4", "$text": "*/1", "typeId": "f8d85935-dc8d-ceab-8b59-185af6f07e21"},
+          {"name": "V1", "$text": "1/#", "typeId": "0de14c52-6109-fb8b-5a4c-f4c28b81e724"},
+          {"name": "V2", "$text": "1/3", "typeId": "29107c7e-8b35-1352-b0e8-8274e8e6fc9e"},
+          {"name": "V3", "$text": "1/3", "typeId": "7d9919e5-211a-348d-cc4a-75f55034aa11"},
+          {"name": "V4", "$text": "1/2", "typeId": "5126abc7-3036-a560-473c-95cc1ebd6083"},
+          {"name": "V5", "$text": "1/2", "typeId": "10e6e9fa-5b07-60dc-7c21-43fd0d321972"},
+          {"name": "V6", "$text": "1/1", "typeId": "f39e3ba7-f0f6-e8ce-827a-9f36af8f38b4"},
+          {"name": "V7", "$text": "1/1", "typeId": "95df902a-0d91-60fb-d501-90ba12e3f256"},
+          {"name": "A1", "typeId": "3d408739-3c19-38d5-ed51-5bf195e61965"},
+          {"name": "A2", "typeId": "afbc1d34-5c65-e8a1-6226-84be59697cb2"},
+          {"name": "A3", "typeId": "cc1450a8-c61a-8715-5533-2175e5923685"}
+        ]
+      },
+      {
+        "name": "Submachine-Gun",
+        "id": "6456-8044-456a-5233",
+        "hidden": false,
+        "page": 0,
+        "typeId": "6c4a1962-9409-6e62-9ea7-e81c4935e4fa",
+        "characteristics": [
+          {"name": "Range", "$text": "2", "typeId": "382f5f95-0919-db20-9901-aa54bc211abf"},
+          {"name": "S1", "$text": "6/1", "typeId": "9f313303-9a76-64ed-6657-e3b18cdf1022"},
+          {"name": "S2", "$text": "5/1", "typeId": "2fd57814-fb96-57cd-78e5-048c1e328a32"},
+          {"name": "S3", "$text": "3/1", "typeId": "21997c06-620b-2dc6-ee6e-6f0b06c06b70"},
+          {"name": "S4", "typeId": "9c177689-a2b1-8777-3393-bd39db9df6f9"},
+          {"name": "V1", "typeId": "4acce298-41c6-ac29-6442-02e5e62f87c5"},
+          {"name": "V2", "typeId": "ae7f079b-f6e8-7a6e-fa5c-8448667ec4e1"},
+          {"name": "V3", "typeId": "dd544bcd-65f3-f239-9b6e-9a6342e49bac"},
+          {"name": "V4", "typeId": "a27828e2-0dc0-c181-1699-be334623891d"},
+          {"name": "V5", "typeId": "2e7ddbf4-add2-7c6a-e399-f39b4cddfb09"},
+          {"name": "V6", "typeId": "c95029b6-a3de-69ec-b3f0-0d150370d270"},
+          {"name": "V7", "typeId": "36d7cfe6-023a-0dfe-e736-812d153c4fcc"},
+          {"name": "A1", "typeId": "bf377d08-6032-da4e-f38f-cab8ee40f265"},
+          {"name": "A2", "typeId": "0bb5675e-a53a-ae6e-1343-8cd4702c13a7"},
+          {"name": "A3", "typeId": "4946dc2d-5011-1098-c878-f3ab3bc8477f"}
+        ]
+      },
+      {
+        "name": "Demo Charge",
+        "id": "9145-f64d-930f-8ced",
+        "hidden": false,
+        "typeId": "6c4a1962-9409-6e62-9ea7-e81c4935e4fa",
+        "typeName": "Weapons",
+        "characteristics": [
+          {"name": "Range", "$text": "C", "typeId": "382f5f95-0919-db20-9901-aa54bc211abf"},
+          {"name": "S1", "$text": "1/1", "typeId": "9f313303-9a76-64ed-6657-e3b18cdf1022"},
+          {"name": "S2", "$text": "1/1", "typeId": "2fd57814-fb96-57cd-78e5-048c1e328a32"},
+          {"name": "S3", "$text": "1/1", "typeId": "21997c06-620b-2dc6-ee6e-6f0b06c06b70"},
+          {"name": "S4", "$text": "1/1", "typeId": "9c177689-a2b1-8777-3393-bd39db9df6f9"},
+          {"name": "V1", "$text": "1/3", "typeId": "4acce298-41c6-ac29-6442-02e5e62f87c5"},
+          {"name": "V2", "$text": "1/3", "typeId": "ae7f079b-f6e8-7a6e-fa5c-8448667ec4e1"},
+          {"name": "V3", "$text": "1/2", "typeId": "dd544bcd-65f3-f239-9b6e-9a6342e49bac"},
+          {"name": "V4", "$text": "1/2", "typeId": "a27828e2-0dc0-c181-1699-be334623891d"},
+          {"name": "V5", "$text": "1/2", "typeId": "2e7ddbf4-add2-7c6a-e399-f39b4cddfb09"},
+          {"name": "V6", "$text": "1/2", "typeId": "c95029b6-a3de-69ec-b3f0-0d150370d270"},
+          {"name": "V7", "$text": "1/2", "typeId": "36d7cfe6-023a-0dfe-e736-812d153c4fcc"},
+          {"name": "A1", "typeId": "bf377d08-6032-da4e-f38f-cab8ee40f265"},
+          {"name": "A2", "typeId": "0bb5675e-a53a-ae6e-1343-8cd4702c13a7"},
+          {"name": "A3", "typeId": "4946dc2d-5011-1098-c878-f3ab3bc8477f"}
+        ]
+      },
+      {
+        "name": "Sniper Rifle",
+        "id": "6906-e7d5-72f1-799c",
+        "hidden": false,
+        "typeId": "6c4a1962-9409-6e62-9ea7-e81c4935e4fa",
+        "typeName": "Weapons",
+        "characteristics": [
+          {"name": "Range", "$text": "8", "typeId": "382f5f95-0919-db20-9901-aa54bc211abf"},
+          {"name": "S1", "$text": "1/1", "typeId": "9f313303-9a76-64ed-6657-e3b18cdf1022"},
+          {"name": "S2", "$text": "1/1", "typeId": "2fd57814-fb96-57cd-78e5-048c1e328a32"},
+          {"name": "S3", "$text": "1/1", "typeId": "21997c06-620b-2dc6-ee6e-6f0b06c06b70"},
+          {"name": "S4", "$text": "1/1", "typeId": "9c177689-a2b1-8777-3393-bd39db9df6f9"},
+          {"name": "V1", "$text": "1/1", "typeId": "4acce298-41c6-ac29-6442-02e5e62f87c5"},
+          {"name": "V2", "$text": "1/1", "typeId": "ae7f079b-f6e8-7a6e-fa5c-8448667ec4e1"},
+          {"name": "V3", "typeId": "dd544bcd-65f3-f239-9b6e-9a6342e49bac"},
+          {"name": "V4", "typeId": "a27828e2-0dc0-c181-1699-be334623891d"},
+          {"name": "V5", "typeId": "2e7ddbf4-add2-7c6a-e399-f39b4cddfb09"},
+          {"name": "V6", "typeId": "c95029b6-a3de-69ec-b3f0-0d150370d270"},
+          {"name": "V7", "typeId": "36d7cfe6-023a-0dfe-e736-812d153c4fcc"},
+          {"name": "A1", "typeId": "bf377d08-6032-da4e-f38f-cab8ee40f265"},
+          {"name": "A2", "typeId": "0bb5675e-a53a-ae6e-1343-8cd4702c13a7"},
+          {"name": "A3", "typeId": "4946dc2d-5011-1098-c878-f3ab3bc8477f"}
+        ]
+      },
+      {
+        "name": "Pistol",
+        "id": "f67d-1ab8-c78f-1dd6",
+        "hidden": false,
+        "typeId": "6c4a1962-9409-6e62-9ea7-e81c4935e4fa",
+        "typeName": "Weapons",
+        "characteristics": [
+          {"name": "Range", "$text": "2", "typeId": "382f5f95-0919-db20-9901-aa54bc211abf"},
+          {"name": "S1", "$text": "3/1", "typeId": "9f313303-9a76-64ed-6657-e3b18cdf1022"},
+          {"name": "S2", "$text": "3/1", "typeId": "2fd57814-fb96-57cd-78e5-048c1e328a32"},
+          {"name": "S3", "$text": "2/1", "typeId": "21997c06-620b-2dc6-ee6e-6f0b06c06b70"},
+          {"name": "S4", "typeId": "9c177689-a2b1-8777-3393-bd39db9df6f9"},
+          {"name": "V1", "$text": "2/1", "typeId": "4acce298-41c6-ac29-6442-02e5e62f87c5"},
+          {"name": "V2", "typeId": "ae7f079b-f6e8-7a6e-fa5c-8448667ec4e1"},
+          {"name": "V3", "typeId": "dd544bcd-65f3-f239-9b6e-9a6342e49bac"},
+          {"name": "V4", "typeId": "a27828e2-0dc0-c181-1699-be334623891d"},
+          {"name": "V5", "typeId": "2e7ddbf4-add2-7c6a-e399-f39b4cddfb09"},
+          {"name": "V6", "typeId": "c95029b6-a3de-69ec-b3f0-0d150370d270"},
+          {"name": "V7", "typeId": "36d7cfe6-023a-0dfe-e736-812d153c4fcc"},
+          {"name": "A1", "typeId": "bf377d08-6032-da4e-f38f-cab8ee40f265"},
+          {"name": "A2", "typeId": "0bb5675e-a53a-ae6e-1343-8cd4702c13a7"},
+          {"name": "A3", "typeId": "4946dc2d-5011-1098-c878-f3ab3bc8477f"}
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "id": "771d-e6c9-992f-8491",
+        "hidden": false,
+        "typeId": "6c4a1962-9409-6e62-9ea7-e81c4935e4fa",
+        "characteristics": [
+          {"name": "Range", "$text": "2", "typeId": "382f5f95-0919-db20-9901-aa54bc211abf"},
+          {"name": "S1", "$text": "7/1", "typeId": "9f313303-9a76-64ed-6657-e3b18cdf1022"},
+          {"name": "S2", "$text": "6/1", "typeId": "2fd57814-fb96-57cd-78e5-048c1e328a32"},
+          {"name": "S3", "$text": "4/1", "typeId": "21997c06-620b-2dc6-ee6e-6f0b06c06b70"},
+          {"name": "S4", "$text": "2/1", "typeId": "9c177689-a2b1-8777-3393-bd39db9df6f9"},
+          {"name": "V1", "$text": "4/1", "typeId": "4acce298-41c6-ac29-6442-02e5e62f87c5"},
+          {"name": "V2", "$text": "2/1", "typeId": "ae7f079b-f6e8-7a6e-fa5c-8448667ec4e1"},
+          {"name": "V3", "typeId": "dd544bcd-65f3-f239-9b6e-9a6342e49bac"},
+          {"name": "V4", "typeId": "a27828e2-0dc0-c181-1699-be334623891d"},
+          {"name": "V5", "typeId": "2e7ddbf4-add2-7c6a-e399-f39b4cddfb09"},
+          {"name": "V6", "typeId": "c95029b6-a3de-69ec-b3f0-0d150370d270"},
+          {"name": "V7", "typeId": "36d7cfe6-023a-0dfe-e736-812d153c4fcc"},
+          {"name": "A1", "typeId": "bf377d08-6032-da4e-f38f-cab8ee40f265"},
+          {"name": "A2", "typeId": "0bb5675e-a53a-ae6e-1343-8cd4702c13a7"},
+          {"name": "A3", "typeId": "4946dc2d-5011-1098-c878-f3ab3bc8477f"}
+        ]
+      },
+      {
+        "name": "Heavy Mortar (Front)",
+        "id": "8e20-116c-8df4-5506",
+        "hidden": false,
+        "typeId": "51c4cbbb-feba-838a-7356-102e85a51f40",
+        "typeName": "Vehicle Weapons",
+        "characteristics": [
+          {"name": "Mount", "$text": "Front", "typeId": "99494c30-5918-3c34-1ea8-5fd2a3a35acb"},
+          {"name": "Range", "$text": "4-12", "typeId": "426f1c91-a24f-c1e2-6c5d-0b056331dce9"},
+          {"name": "S1", "$text": "*/1", "typeId": "94a02cd9-1473-5a5f-cddd-481f20e61e6e"},
+          {"name": "S2", "$text": "*/1", "typeId": "a645204b-207d-2884-31bf-8052544ebe0f"},
+          {"name": "S3", "$text": "*/1", "typeId": "144e20c5-fee5-87da-d142-43ee6b13d299"},
+          {"name": "S4", "$text": "*/1", "typeId": "f8d85935-dc8d-ceab-8b59-185af6f07e21"},
+          {"name": "V1", "$text": "*/2", "typeId": "0de14c52-6109-fb8b-5a4c-f4c28b81e724"},
+          {"name": "V2", "$text": "*/1", "typeId": "29107c7e-8b35-1352-b0e8-8274e8e6fc9e"},
+          {"name": "V3", "$text": "*/1", "typeId": "7d9919e5-211a-348d-cc4a-75f55034aa11"},
+          {"name": "V4", "$text": "*/1", "typeId": "5126abc7-3036-a560-473c-95cc1ebd6083"},
+          {"name": "V5", "$text": "*/1", "typeId": "10e6e9fa-5b07-60dc-7c21-43fd0d321972"},
+          {"name": "V6", "typeId": "f39e3ba7-f0f6-e8ce-827a-9f36af8f38b4"},
+          {"name": "V7", "typeId": "95df902a-0d91-60fb-d501-90ba12e3f256"},
+          {"name": "A1", "typeId": "3d408739-3c19-38d5-ed51-5bf195e61965"},
+          {"name": "A2", "typeId": "afbc1d34-5c65-e8a1-6226-84be59697cb2"},
+          {"name": "A3", "typeId": "cc1450a8-c61a-8715-5533-2175e5923685"}
+        ]
+      },
+      {
+        "name": "Heavy Machinegun (Front)",
+        "id": "bd1e-1f45-0d17-3138",
+        "hidden": false,
+        "typeId": "51c4cbbb-feba-838a-7356-102e85a51f40",
+        "typeName": "Vehicle Weapons",
+        "characteristics": [
+          {"name": "Mount", "$text": "Front", "typeId": "99494c30-5918-3c34-1ea8-5fd2a3a35acb"},
+          {"name": "Range", "$text": "6", "typeId": "426f1c91-a24f-c1e2-6c5d-0b056331dce9"},
+          {"name": "S1", "$text": "5/1", "typeId": "94a02cd9-1473-5a5f-cddd-481f20e61e6e"},
+          {"name": "S2", "$text": "5/1", "typeId": "a645204b-207d-2884-31bf-8052544ebe0f"},
+          {"name": "S3", "$text": "4/1", "typeId": "144e20c5-fee5-87da-d142-43ee6b13d299"},
+          {"name": "S4", "$text": "3/1", "typeId": "f8d85935-dc8d-ceab-8b59-185af6f07e21"},
+          {"name": "V1", "$text": "3/2", "typeId": "0de14c52-6109-fb8b-5a4c-f4c28b81e724"},
+          {"name": "V2", "$text": "2/1", "typeId": "29107c7e-8b35-1352-b0e8-8274e8e6fc9e"},
+          {"name": "V3", "$text": "1/1", "typeId": "7d9919e5-211a-348d-cc4a-75f55034aa11"},
+          {"name": "V4", "typeId": "5126abc7-3036-a560-473c-95cc1ebd6083"},
+          {"name": "V5", "typeId": "10e6e9fa-5b07-60dc-7c21-43fd0d321972"},
+          {"name": "V6", "typeId": "f39e3ba7-f0f6-e8ce-827a-9f36af8f38b4"},
+          {"name": "V7", "typeId": "95df902a-0d91-60fb-d501-90ba12e3f256"},
+          {"name": "A1", "typeId": "3d408739-3c19-38d5-ed51-5bf195e61965"},
+          {"name": "A2", "typeId": "afbc1d34-5c65-e8a1-6226-84be59697cb2"},
+          {"name": "A3", "typeId": "cc1450a8-c61a-8715-5533-2175e5923685"}
+        ]
+      },
+      {
+        "name": "Heavy Machinegun (Rear)",
+        "id": "7ec9-b950-81e7-b912",
+        "hidden": false,
+        "typeId": "51c4cbbb-feba-838a-7356-102e85a51f40",
+        "typeName": "Vehicle Weapons",
+        "characteristics": [
+          {"name": "Mount", "$text": "Rear", "typeId": "99494c30-5918-3c34-1ea8-5fd2a3a35acb"},
+          {"name": "Range", "$text": "6", "typeId": "426f1c91-a24f-c1e2-6c5d-0b056331dce9"},
+          {"name": "S1", "$text": "5/1", "typeId": "94a02cd9-1473-5a5f-cddd-481f20e61e6e"},
+          {"name": "S2", "$text": "5/1", "typeId": "a645204b-207d-2884-31bf-8052544ebe0f"},
+          {"name": "S3", "$text": "4/1", "typeId": "144e20c5-fee5-87da-d142-43ee6b13d299"},
+          {"name": "S4", "$text": "3/1", "typeId": "f8d85935-dc8d-ceab-8b59-185af6f07e21"},
+          {"name": "V1", "$text": "3/2", "typeId": "0de14c52-6109-fb8b-5a4c-f4c28b81e724"},
+          {"name": "V2", "$text": "2/1", "typeId": "29107c7e-8b35-1352-b0e8-8274e8e6fc9e"},
+          {"name": "V3", "$text": "1/1", "typeId": "7d9919e5-211a-348d-cc4a-75f55034aa11"},
+          {"name": "V4", "typeId": "5126abc7-3036-a560-473c-95cc1ebd6083"},
+          {"name": "V5", "typeId": "10e6e9fa-5b07-60dc-7c21-43fd0d321972"},
+          {"name": "V6", "typeId": "f39e3ba7-f0f6-e8ce-827a-9f36af8f38b4"},
+          {"name": "V7", "typeId": "95df902a-0d91-60fb-d501-90ba12e3f256"},
+          {"name": "A1", "$text": "2/2", "typeId": "3d408739-3c19-38d5-ed51-5bf195e61965"},
+          {"name": "A2", "$text": "1/2", "typeId": "afbc1d34-5c65-e8a1-6226-84be59697cb2"},
+          {"name": "A3", "$text": "1/1", "typeId": "cc1450a8-c61a-8715-5533-2175e5923685"}
+        ]
+      },
+      {
+        "name": "Heavy Machinegun (Left)",
+        "id": "884f-c9a1-67e2-0c67",
+        "hidden": false,
+        "typeId": "51c4cbbb-feba-838a-7356-102e85a51f40",
+        "typeName": "Vehicle Weapons",
+        "characteristics": [
+          {"name": "Mount", "$text": "Left", "typeId": "99494c30-5918-3c34-1ea8-5fd2a3a35acb"},
+          {"name": "Range", "$text": "6", "typeId": "426f1c91-a24f-c1e2-6c5d-0b056331dce9"},
+          {"name": "S1", "$text": "5/1", "typeId": "94a02cd9-1473-5a5f-cddd-481f20e61e6e"},
+          {"name": "S2", "$text": "5/1", "typeId": "a645204b-207d-2884-31bf-8052544ebe0f"},
+          {"name": "S3", "$text": "4/1", "typeId": "144e20c5-fee5-87da-d142-43ee6b13d299"},
+          {"name": "S4", "$text": "3/1", "typeId": "f8d85935-dc8d-ceab-8b59-185af6f07e21"},
+          {"name": "V1", "$text": "3/2", "typeId": "0de14c52-6109-fb8b-5a4c-f4c28b81e724"},
+          {"name": "V2", "$text": "2/1", "typeId": "29107c7e-8b35-1352-b0e8-8274e8e6fc9e"},
+          {"name": "V3", "$text": "1/1", "typeId": "7d9919e5-211a-348d-cc4a-75f55034aa11"},
+          {"name": "V4", "typeId": "5126abc7-3036-a560-473c-95cc1ebd6083"},
+          {"name": "V5", "typeId": "10e6e9fa-5b07-60dc-7c21-43fd0d321972"},
+          {"name": "V6", "typeId": "f39e3ba7-f0f6-e8ce-827a-9f36af8f38b4"},
+          {"name": "V7", "typeId": "95df902a-0d91-60fb-d501-90ba12e3f256"},
+          {"name": "A1", "$text": "2/2", "typeId": "3d408739-3c19-38d5-ed51-5bf195e61965"},
+          {"name": "A2", "$text": "1/2", "typeId": "afbc1d34-5c65-e8a1-6226-84be59697cb2"},
+          {"name": "A3", "$text": "1/1", "typeId": "cc1450a8-c61a-8715-5533-2175e5923685"}
+        ]
+      },
+      {
+        "name": "Heavy Machinegun (Right)",
+        "id": "753a-4728-5384-5abc",
+        "hidden": false,
+        "typeId": "51c4cbbb-feba-838a-7356-102e85a51f40",
+        "typeName": "Vehicle Weapons",
+        "characteristics": [
+          {"name": "Mount", "$text": "Right", "typeId": "99494c30-5918-3c34-1ea8-5fd2a3a35acb"},
+          {"name": "Range", "$text": "6", "typeId": "426f1c91-a24f-c1e2-6c5d-0b056331dce9"},
+          {"name": "S1", "$text": "5/1", "typeId": "94a02cd9-1473-5a5f-cddd-481f20e61e6e"},
+          {"name": "S2", "$text": "5/1", "typeId": "a645204b-207d-2884-31bf-8052544ebe0f"},
+          {"name": "S3", "$text": "4/1", "typeId": "144e20c5-fee5-87da-d142-43ee6b13d299"},
+          {"name": "S4", "$text": "3/1", "typeId": "f8d85935-dc8d-ceab-8b59-185af6f07e21"},
+          {"name": "V1", "$text": "3/2", "typeId": "0de14c52-6109-fb8b-5a4c-f4c28b81e724"},
+          {"name": "V2", "$text": "2/1", "typeId": "29107c7e-8b35-1352-b0e8-8274e8e6fc9e"},
+          {"name": "V3", "$text": "1/1", "typeId": "7d9919e5-211a-348d-cc4a-75f55034aa11"},
+          {"name": "V4", "typeId": "5126abc7-3036-a560-473c-95cc1ebd6083"},
+          {"name": "V5", "typeId": "10e6e9fa-5b07-60dc-7c21-43fd0d321972"},
+          {"name": "V6", "typeId": "f39e3ba7-f0f6-e8ce-827a-9f36af8f38b4"},
+          {"name": "V7", "typeId": "95df902a-0d91-60fb-d501-90ba12e3f256"},
+          {"name": "A1", "$text": "2/2", "typeId": "3d408739-3c19-38d5-ed51-5bf195e61965"},
+          {"name": "A2", "$text": "1/2", "typeId": "afbc1d34-5c65-e8a1-6226-84be59697cb2"},
+          {"name": "A3", "$text": "1/1", "typeId": "cc1450a8-c61a-8715-5533-2175e5923685"}
+        ]
+      },
+      {
+        "name": "Recoilless Gun (Front)",
+        "id": "ed9f-d89a-4db3-014d",
+        "hidden": false,
+        "typeId": "51c4cbbb-feba-838a-7356-102e85a51f40",
+        "typeName": "Vehicle Weapons",
+        "characteristics": [
+          {"name": "Mount", "$text": "Front", "typeId": "99494c30-5918-3c34-1ea8-5fd2a3a35acb"},
+          {"name": "Range", "$text": "8", "typeId": "426f1c91-a24f-c1e2-6c5d-0b056331dce9"},
+          {"name": "S1", "$text": "*/1", "typeId": "94a02cd9-1473-5a5f-cddd-481f20e61e6e"},
+          {"name": "S2", "$text": "*/1", "typeId": "a645204b-207d-2884-31bf-8052544ebe0f"},
+          {"name": "S3", "$text": "*/1", "typeId": "144e20c5-fee5-87da-d142-43ee6b13d299"},
+          {"name": "S4", "$text": "*/1", "typeId": "f8d85935-dc8d-ceab-8b59-185af6f07e21"},
+          {"name": "V1", "$text": "1/#", "typeId": "0de14c52-6109-fb8b-5a4c-f4c28b81e724"},
+          {"name": "V2", "$text": "1/#", "typeId": "29107c7e-8b35-1352-b0e8-8274e8e6fc9e"},
+          {"name": "V3", "$text": "1/4", "typeId": "7d9919e5-211a-348d-cc4a-75f55034aa11"},
+          {"name": "V4", "$text": "1/3", "typeId": "5126abc7-3036-a560-473c-95cc1ebd6083"},
+          {"name": "V5", "$text": "1/3", "typeId": "10e6e9fa-5b07-60dc-7c21-43fd0d321972"},
+          {"name": "V6", "$text": "1/2", "typeId": "f39e3ba7-f0f6-e8ce-827a-9f36af8f38b4"},
+          {"name": "V7", "$text": "1/2", "typeId": "95df902a-0d91-60fb-d501-90ba12e3f256"},
+          {"name": "A1", "typeId": "3d408739-3c19-38d5-ed51-5bf195e61965"},
+          {"name": "A2", "typeId": "afbc1d34-5c65-e8a1-6226-84be59697cb2"},
+          {"name": "A3", "typeId": "cc1450a8-c61a-8715-5533-2175e5923685"}
+        ]
+      },
+      {
+        "name": "Twin Heavy Machinegun (Front)",
+        "id": "94b4-997e-9463-ea47",
+        "hidden": false,
+        "typeId": "51c4cbbb-feba-838a-7356-102e85a51f40",
+        "typeName": "Vehicle Weapons",
+        "characteristics": [
+          {"name": "Mount", "$text": "Front", "typeId": "99494c30-5918-3c34-1ea8-5fd2a3a35acb"},
+          {"name": "Range", "$text": "6", "typeId": "426f1c91-a24f-c1e2-6c5d-0b056331dce9"},
+          {"name": "S1", "$text": "7/1", "typeId": "94a02cd9-1473-5a5f-cddd-481f20e61e6e"},
+          {"name": "S2", "$text": "7/1", "typeId": "a645204b-207d-2884-31bf-8052544ebe0f"},
+          {"name": "S3", "$text": "5/1", "typeId": "144e20c5-fee5-87da-d142-43ee6b13d299"},
+          {"name": "S4", "$text": "4/1", "typeId": "f8d85935-dc8d-ceab-8b59-185af6f07e21"},
+          {"name": "V1", "$text": "4/2", "typeId": "0de14c52-6109-fb8b-5a4c-f4c28b81e724"},
+          {"name": "V2", "$text": "3/1", "typeId": "29107c7e-8b35-1352-b0e8-8274e8e6fc9e"},
+          {"name": "V3", "$text": "1/1", "typeId": "7d9919e5-211a-348d-cc4a-75f55034aa11"},
+          {"name": "V4", "typeId": "5126abc7-3036-a560-473c-95cc1ebd6083"},
+          {"name": "V5", "typeId": "10e6e9fa-5b07-60dc-7c21-43fd0d321972"},
+          {"name": "V6", "typeId": "f39e3ba7-f0f6-e8ce-827a-9f36af8f38b4"},
+          {"name": "V7", "typeId": "95df902a-0d91-60fb-d501-90ba12e3f256"},
+          {"name": "A1", "$text": "3/2", "typeId": "3d408739-3c19-38d5-ed51-5bf195e61965"},
+          {"name": "A2", "$text": "2/2", "typeId": "afbc1d34-5c65-e8a1-6226-84be59697cb2"},
+          {"name": "A3", "$text": "1/1", "typeId": "cc1450a8-c61a-8715-5533-2175e5923685"}
+        ]
+      }
+    ]
+  }
+}
