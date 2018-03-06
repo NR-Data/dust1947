@@ -1,0 +1,939 @@
+{
+  "catalogue": {
+    "name": "Mythos",
+    "id": "3528-abb5-af8c-570f",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "bacf-9ebb-dbda-57d0",
+    "gameSystemRevision": 12,
+    "revision": 5,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "selectionEntries": [
+      {
+        "name": "Spawn of Cthulhu",
+        "id": "94a6-a55b-2767-ebad",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "7e52-64ed-12dd-7f1b", "hidden": false, "primary": true, "targetId": "d78cc027-a9e9-a40f-cca6-6333e2739f64"}],
+        "costs": [{"name": " pts", "typeId": "points", "value": 23}],
+        "infoLinks": [
+          {"name": "Charge", "id": "549a-50a0-210c-3564", "hidden": false, "targetId": "e9af-5878-ed2e-f493", "type": "rule"},
+          {"name": "First Strike", "id": "0d5f-5ac7-ecd2-c0d5", "hidden": false, "targetId": "e452-a3b7-f41c-2046", "type": "rule"},
+          {"name": "Flying", "id": "e338-4293-531d-30c2", "hidden": false, "targetId": "5c4d-7223-a1e3-67f2", "type": "rule"},
+          {"name": "Mythos Creature", "id": "07e4-a0b8-7279-fb07", "hidden": false, "targetId": "5ecc-bf37-dcad-4e11", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Spawn of Cthulhu",
+            "id": "d3c6-c87c-1cec-f749",
+            "hidden": false,
+            "typeId": "d4bd9345-c104-05b5-dba6-bf84d1163625",
+            "typeName": "Vehicle",
+            "characteristics": [
+              {"name": "Damage Track", "$text": "9", "typeId": "ed36b802-b164-ae0b-b441-ebb8e45606b6"},
+              {"name": "Move", "$text": "3", "typeId": "8b340ad2-9af2-327e-d1ca-675097d3b3c5"},
+              {"name": "March Move", "$text": "5", "typeId": "7efff746-66c0-c275-304c-6339ff7da914"},
+              {"name": "Armour", "$text": "V5", "typeId": "214b6458-e958-a048-8f8c-de17188dae7b"},
+              {"name": "Faction", "typeId": "fbc5-7d00-f9de-443e"}
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Claws (Turret)",
+            "id": "17e6-d5d0-2f13-aea1",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "a2e2-688d-6854-05ab",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 2
+              },
+              {
+                "id": "830e-ee3f-8e73-3746",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 2
+              }
+            ],
+            "costs": [{"name": " pts", "typeId": "points", "value": 0}],
+            "infoLinks": [{"name": "Claws (Turret)", "id": "b0ad-7404-7017-75d7", "hidden": false, "targetId": "64ff-2f62-0ceb-942a", "type": "profile"}]
+          }
+        ]
+      },
+      {
+        "name": "Avatar of Nyarlathotep",
+        "id": "92d8-2889-9ef3-d204",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "fb76-085f-ef23-cbdc", "hidden": false, "primary": true, "targetId": "de909069-5479-47d9-dc05-07d94eae45d1"}],
+        "costs": [{"name": " pts", "typeId": "points", "value": 35}],
+        "infoLinks": [
+          {"name": "Damage Resilient", "id": "a745-7a6c-04ae-5861", "hidden": false, "targetId": "7005-a571-08c8-f819", "type": "rule"},
+          {"name": "Mythos Creature", "id": "c5d9-0bd2-5ce2-6d05", "hidden": false, "targetId": "5ecc-bf37-dcad-4e11", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Avatar of Nyarlathotep",
+            "id": "3ce0-f761-2cc5-f424",
+            "hidden": false,
+            "typeId": "d4bd9345-c104-05b5-dba6-bf84d1163625",
+            "typeName": "Vehicle",
+            "characteristics": [
+              {"name": "Damage Track", "$text": "11", "typeId": "ed36b802-b164-ae0b-b441-ebb8e45606b6"},
+              {"name": "Move", "$text": "3", "typeId": "8b340ad2-9af2-327e-d1ca-675097d3b3c5"},
+              {"name": "March Move", "$text": "5", "typeId": "7efff746-66c0-c275-304c-6339ff7da914"},
+              {"name": "Armour", "$text": "V7", "typeId": "214b6458-e958-a048-8f8c-de17188dae7b"},
+              {"name": "Faction", "typeId": "fbc5-7d00-f9de-443e"}
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Eldritch Fire (Turret)",
+            "id": "ea32-675f-b83d-1dd2",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "dfb2-f285-5bcc-cb86",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "e74c-c1d6-4f99-07fb",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " pts", "typeId": "points", "value": 0}],
+            "infoLinks": [
+              {"name": "Eldritch Fire (Turret)", "id": "ec29-2059-0576-f5f2", "hidden": false, "targetId": "4ea9-872d-055f-0ccf", "type": "profile"},
+              {"name": "Flame", "id": "b562-de4a-2b92-9afe", "hidden": false, "targetId": "76b8-1dfa-a0de-a745", "type": "rule"}
+            ]
+          },
+          {
+            "name": "Psychic Scream (Turret)",
+            "id": "50fd-fb4e-5715-47f2",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "d87b-e07a-5556-d716",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "c82a-c480-f741-5912",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " pts", "typeId": "points", "value": 0}],
+            "infoLinks": [
+              {"name": "Psychic Scream", "id": "ba73-3380-ad5b-0384", "hidden": false, "targetId": "0a01-816f-3ce5-05f5", "type": "rule"},
+              {"name": "Psychic Scream (Turret)", "id": "2417-93c0-307c-3449", "hidden": false, "targetId": "8477-2d15-92e2-bb73", "type": "profile"}
+            ]
+          },
+          {
+            "name": "Claws (Turret)",
+            "id": "fa91-f781-32e2-5242",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "6ea7-512d-3f46-0aba",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 2
+              },
+              {
+                "id": "3037-4a16-8a5e-fcb2",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 2
+              }
+            ],
+            "costs": [{"name": " pts", "typeId": "points", "value": 0}],
+            "infoLinks": [{"name": "Claws (Turret) ", "id": "a747-61a8-2da3-dc7d", "hidden": false, "targetId": "43a2-fd38-781f-c387", "type": "profile"}]
+          }
+        ]
+      },
+      {
+        "name": "Purifier",
+        "id": "347f-3c06-545a-629a",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "804c-b315-baa0-59df", "hidden": false, "primary": true, "targetId": "bbcb75d0-5169-4b14-1ca9-dff1d9b4996e"}],
+        "costs": [{"name": " pts", "typeId": "points", "value": 6}],
+        "infoLinks": [{"name": "Wheeled", "id": "e5e0-bd67-5103-666f", "hidden": false, "targetId": "cbfd-2433-8ec0-7afe", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Purifier",
+            "id": "04b6-9d9e-8817-0778",
+            "hidden": false,
+            "typeId": "d4bd9345-c104-05b5-dba6-bf84d1163625",
+            "typeName": "Vehicle",
+            "characteristics": [
+              {"name": "Damage Track", "$text": "4", "typeId": "ed36b802-b164-ae0b-b441-ebb8e45606b6"},
+              {"name": "Move", "$text": "3", "typeId": "8b340ad2-9af2-327e-d1ca-675097d3b3c5"},
+              {"name": "March Move", "$text": "5", "typeId": "7efff746-66c0-c275-304c-6339ff7da914"},
+              {"name": "Armour", "$text": "V2", "typeId": "214b6458-e958-a048-8f8c-de17188dae7b"},
+              {"name": "Faction", "typeId": "fbc5-7d00-f9de-443e"}
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Flamethrower (Turret)",
+            "id": "9462-5f48-3508-057e",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "13ab-44f8-2334-3725",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "92dd-2107-48e2-1c7b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " pts", "typeId": "points", "value": 0}],
+            "infoLinks": [
+              {"name": "Flame", "id": "299f-5652-c98e-040f", "hidden": false, "targetId": "76b8-1dfa-a0de-a745", "type": "rule"},
+              {"name": "Flamethrower (Turret)", "id": "5efe-d0a4-39a5-e479", "hidden": false, "targetId": "0226-c4f5-ad23-a125", "type": "profile"}
+            ]
+          },
+          {
+            "name": "Machinegun (Front)",
+            "id": "7e6b-4dcb-848f-9685",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "b5d7-bb1e-dad4-cd2c",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "b275-a416-4a71-4ed8",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " pts", "typeId": "points", "value": 0}],
+            "infoLinks": [{"name": "Machinegun (Front)", "id": "bc6c-ff32-e8bc-718f", "hidden": false, "targetId": "b684-ad97-a5eb-bc82", "type": "profile"}]
+          }
+        ]
+      },
+      {
+        "name": "Cultist Fire Squad",
+        "id": "272d-86c5-7081-2127",
+        "collective": false,
+        "hidden": false,
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "1740-b428-7fa0-beaa", "hidden": false, "primary": true, "targetId": "76227318-3362-ffb8-0460-e948cda200fe"}],
+        "costs": [{"name": " pts", "typeId": "points", "value": 4}],
+        "profiles": [
+          {
+            "name": "Cultist Fire Squad",
+            "id": "4204-27a9-07d2-5d7a",
+            "hidden": false,
+            "typeId": "41b56042-fab9-47e0-0812-0af86fc4caba",
+            "typeName": "Infantry",
+            "characteristics": [
+              {"name": "Move", "$text": "2", "typeId": "5c7c3ab5-1c5d-c101-1cbb-0352fdf58869"},
+              {"name": "March Move", "$text": "4", "typeId": "b83a82fd-4a1a-6698-9305-9f3ef7e57f48"},
+              {"name": "Armour", "$text": "S1", "typeId": "aeef742f-0070-cf7b-3fba-92583ccc1fd7"},
+              {"name": "Faction", "typeId": "0487-5495-4e79-1ee5"}
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Old Submachine Gun",
+            "id": "9862-e106-490a-199c",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "9a2c-4e22-c4f7-26dd",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 5
+              },
+              {
+                "id": "caf1-8d2d-d05d-7750",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 5
+              }
+            ],
+            "costs": [{"name": " pts", "typeId": "points", "value": 0}],
+            "infoLinks": [{"name": "Old Submachine Gun", "id": "b5f1-9696-8848-5f30", "hidden": false, "targetId": "8960-3905-1bd5-66fc", "type": "profile"}]
+          }
+        ]
+      },
+      {
+        "name": "Mi-Go Assault Squad",
+        "id": "4fd5-7962-fd32-8069",
+        "collective": false,
+        "hidden": false,
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "e089-d5ac-0b34-9be8", "hidden": false, "primary": true, "targetId": "be074469-cf2b-f2c0-40ca-57b07dcf6d94"}],
+        "costs": [{"name": " pts", "typeId": "points", "value": 8}],
+        "infoLinks": [
+          {"name": "Charge", "id": "a833-389a-763b-24f9", "hidden": false, "targetId": "e9af-5878-ed2e-f493", "type": "rule"},
+          {"name": "Flying", "id": "c4b2-45e9-86c7-04d7", "hidden": false, "targetId": "5c4d-7223-a1e3-67f2", "type": "rule"},
+          {"name": "Lesser Mythos Creatures", "id": "942c-c55d-ba67-5da2", "hidden": false, "targetId": "049d-d288-a828-4c96", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Mi-Go Assault Squad",
+            "id": "8aff-ec73-ddef-498d",
+            "hidden": false,
+            "typeId": "41b56042-fab9-47e0-0812-0af86fc4caba",
+            "typeName": "Infantry",
+            "characteristics": [
+              {"name": "Move", "$text": "3", "typeId": "5c7c3ab5-1c5d-c101-1cbb-0352fdf58869"},
+              {"name": "March Move", "$text": "5", "typeId": "b83a82fd-4a1a-6698-9305-9f3ef7e57f48"},
+              {"name": "Armour", "$text": "S3", "typeId": "aeef742f-0070-cf7b-3fba-92583ccc1fd7"},
+              {"name": "Faction", "typeId": "0487-5495-4e79-1ee5"}
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Claws",
+            "id": "0141-8c72-2ce0-1493",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "8578-c968-3201-61cf",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 3
+              },
+              {
+                "id": "96fc-e11f-b9a9-1ee9",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 3
+              }
+            ],
+            "costs": [{"name": " pts", "typeId": "points", "value": 0}],
+            "infoLinks": [{"name": "Claws", "id": "be87-c5b1-e85f-5941", "hidden": false, "targetId": "4342-df61-9a54-6a52", "type": "profile"}]
+          },
+          {
+            "name": "Fungi From Yuggoth",
+            "id": "c27d-5a0e-7456-3d08",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "65a7-917a-a7f2-946b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "732a-4af6-4bf0-a359",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " pts", "typeId": "points", "value": 0}],
+            "infoLinks": [
+              {"name": "Fungi From Yuggoth", "id": "6e78-6518-4d8a-a996", "hidden": false, "targetId": "9bcd-8106-1c3f-9f02", "type": "profile"},
+              {"name": "Spores", "id": "bcab-38ab-4463-01ef", "hidden": false, "targetId": "04a9-e6fe-0515-8e2c", "type": "rule"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Lilith",
+        "id": "4cb3-5101-0e6a-ba4e",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "30c5-0f68-92c4-c648", "hidden": false, "primary": true, "targetId": "9f916fbe-6a7d-bb77-2b8a-7b9d16261e99"}],
+        "constraints": [
+          {
+            "id": "561d-56f2-8b39-122e",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": " pts", "typeId": "points", "value": 6}],
+        "infoLinks": [
+          {"name": "Move and Fire", "id": "8af2-d72c-0508-f89e", "hidden": false, "targetId": "d475-fbdb-821c-ae90", "type": "rule"},
+          {"name": "Possessed", "id": "9c80-0d3b-fd51-ac10", "hidden": false, "targetId": "de46-2ead-1b56-32bd", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Lilith",
+            "id": "649e-45f0-830f-d07f",
+            "hidden": false,
+            "typeId": "cdc60b3a-77a5-d5f7-bfbc-40fa73d6902b",
+            "typeName": "Heroes",
+            "characteristics": [
+              {"name": "Damage Track", "$text": "4", "typeId": "4df5bfce-f8de-996b-b151-521ceb1ffe6a"},
+              {"name": "Move", "$text": "2", "typeId": "44ed5a71-9e76-fc25-7fcf-46df82ff75eb"},
+              {"name": "March Move", "$text": "4", "typeId": "c508ae09-edfd-4a55-8027-3b3099af5e01"},
+              {"name": "Armour", "$text": "S1", "typeId": "ec77eb83-dbb3-c773-ca88-53b8207beda6"},
+              {"name": "Faction", "typeId": "4a5a-a591-3db6-3a03"}
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Old Submachine Gun",
+            "id": "a623-f65e-3dae-4446",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "c215-c553-8466-01bc",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "bd0c-76a6-2c14-70ba",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " pts", "typeId": "points", "value": 0}],
+            "infoLinks": [{"name": "Old Submachine Gun", "id": "bcbf-5cab-5000-513d", "hidden": false, "targetId": "8960-3905-1bd5-66fc", "type": "profile"}]
+          },
+          {
+            "name": "Sacrificial Dagger",
+            "id": "9574-c4b6-a7ee-0865",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "34f7-c098-01a4-087c",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "acec-ccd8-7d91-751d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " pts", "typeId": "points", "value": 0}],
+            "infoLinks": [{"name": "Sacrificial Dagger", "id": "9ef3-9a6e-1030-8026", "hidden": false, "targetId": "d986-9cd7-bdb2-ecb9", "type": "profile"}]
+          }
+        ]
+      },
+      {
+        "name": "Lilith (Possessed)",
+        "id": "bd34-847c-94b8-3573",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "849c-aab2-d938-af6c", "hidden": false, "primary": true, "targetId": "9f916fbe-6a7d-bb77-2b8a-7b9d16261e99"}],
+        "constraints": [
+          {
+            "id": "5d80-cecc-3dc7-15ea",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": " pts", "typeId": "points", "value": 0}],
+        "infoLinks": [
+          {"name": "Charge", "id": "9f5a-4ddc-6c7b-8e81", "hidden": false, "targetId": "e9af-5878-ed2e-f493", "type": "rule"},
+          {"name": "Possessed", "id": "c50a-7d46-ed73-c2af", "hidden": false, "targetId": "de46-2ead-1b56-32bd", "type": "rule"},
+          {"name": "Devour", "id": "f6fc-1344-b3b2-4d90", "hidden": false, "targetId": "ed89-509b-43fb-3b05", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Lilith (Possessed)",
+            "id": "cbf1-758f-afc4-fa3a",
+            "hidden": false,
+            "typeId": "cdc60b3a-77a5-d5f7-bfbc-40fa73d6902b",
+            "typeName": "Heroes",
+            "characteristics": [
+              {"name": "Damage Track", "$text": "4", "typeId": "4df5bfce-f8de-996b-b151-521ceb1ffe6a"},
+              {"name": "Move", "$text": "2", "typeId": "44ed5a71-9e76-fc25-7fcf-46df82ff75eb"},
+              {"name": "March Move", "$text": "4", "typeId": "c508ae09-edfd-4a55-8027-3b3099af5e01"},
+              {"name": "Armour", "$text": "S1", "typeId": "ec77eb83-dbb3-c773-ca88-53b8207beda6"},
+              {"name": "Faction", "typeId": "4a5a-a591-3db6-3a03"}
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Abomination's Bite",
+            "id": "916a-7e5e-70cd-79ab",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "26af-b1af-63e6-552e",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "d134-e65a-4c92-6ffa",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "infoLinks": [{"name": "Abomination's Bite", "id": "7c7c-36c0-e141-b4cd", "hidden": false, "targetId": "84bb-085a-70ab-d5b3", "type": "profile"}]
+          }
+        ]
+      }
+    ],
+    "sharedProfiles": [
+      {
+        "name": "Claws (Turret)",
+        "id": "64ff-2f62-0ceb-942a",
+        "hidden": false,
+        "typeId": "51c4cbbb-feba-838a-7356-102e85a51f40",
+        "typeName": "Vehicle Weapons",
+        "characteristics": [
+          {"name": "Mount", "$text": "Turret", "typeId": "99494c30-5918-3c34-1ea8-5fd2a3a35acb"},
+          {"name": "Range", "$text": "C", "typeId": "426f1c91-a24f-c1e2-6c5d-0b056331dce9"},
+          {"name": "S1", "$text": "4/1", "typeId": "94a02cd9-1473-5a5f-cddd-481f20e61e6e"},
+          {"name": "S2", "$text": "4/1", "typeId": "a645204b-207d-2884-31bf-8052544ebe0f"},
+          {"name": "S3", "$text": "4/1", "typeId": "144e20c5-fee5-87da-d142-43ee6b13d299"},
+          {"name": "S4", "$text": "4/1", "typeId": "f8d85935-dc8d-ceab-8b59-185af6f07e21"},
+          {"name": "V1", "$text": "2/4", "typeId": "0de14c52-6109-fb8b-5a4c-f4c28b81e724"},
+          {"name": "V2", "$text": "2/4", "typeId": "29107c7e-8b35-1352-b0e8-8274e8e6fc9e"},
+          {"name": "V3", "$text": "2/4", "typeId": "7d9919e5-211a-348d-cc4a-75f55034aa11"},
+          {"name": "V4", "$text": "2/3", "typeId": "5126abc7-3036-a560-473c-95cc1ebd6083"},
+          {"name": "V5", "$text": "2/3", "typeId": "10e6e9fa-5b07-60dc-7c21-43fd0d321972"},
+          {"name": "V6", "$text": "2/3", "typeId": "f39e3ba7-f0f6-e8ce-827a-9f36af8f38b4"},
+          {"name": "V7", "$text": "2/2", "typeId": "95df902a-0d91-60fb-d501-90ba12e3f256"},
+          {"name": "A1", "$text": "2/4", "typeId": "3d408739-3c19-38d5-ed51-5bf195e61965"},
+          {"name": "A2", "$text": "2/3", "typeId": "afbc1d34-5c65-e8a1-6226-84be59697cb2"},
+          {"name": "A3", "$text": "1/3", "typeId": "cc1450a8-c61a-8715-5533-2175e5923685"}
+        ]
+      },
+      {
+        "name": "Eldritch Fire (Turret)",
+        "id": "4ea9-872d-055f-0ccf",
+        "hidden": false,
+        "typeId": "51c4cbbb-feba-838a-7356-102e85a51f40",
+        "typeName": "Vehicle Weapons",
+        "characteristics": [
+          {"name": "Mount", "$text": "Turret", "typeId": "99494c30-5918-3c34-1ea8-5fd2a3a35acb"},
+          {"name": "Range", "$text": "3", "typeId": "426f1c91-a24f-c1e2-6c5d-0b056331dce9"},
+          {"name": "S1", "$text": "**/1", "typeId": "94a02cd9-1473-5a5f-cddd-481f20e61e6e"},
+          {"name": "S2", "$text": "**/1", "typeId": "a645204b-207d-2884-31bf-8052544ebe0f"},
+          {"name": "S3", "$text": "**/1", "typeId": "144e20c5-fee5-87da-d142-43ee6b13d299"},
+          {"name": "S4", "$text": "**/1", "typeId": "f8d85935-dc8d-ceab-8b59-185af6f07e21"},
+          {"name": "V1", "$text": "**/#", "typeId": "0de14c52-6109-fb8b-5a4c-f4c28b81e724"},
+          {"name": "V2", "$text": "**/#", "typeId": "29107c7e-8b35-1352-b0e8-8274e8e6fc9e"},
+          {"name": "V3", "$text": "**/4", "typeId": "7d9919e5-211a-348d-cc4a-75f55034aa11"},
+          {"name": "V4", "$text": "**/4", "typeId": "5126abc7-3036-a560-473c-95cc1ebd6083"},
+          {"name": "V5", "$text": "**/4", "typeId": "10e6e9fa-5b07-60dc-7c21-43fd0d321972"},
+          {"name": "V6", "$text": "**/4", "typeId": "f39e3ba7-f0f6-e8ce-827a-9f36af8f38b4"},
+          {"name": "V7", "$text": "**/4", "typeId": "95df902a-0d91-60fb-d501-90ba12e3f256"},
+          {"name": "A1", "typeId": "3d408739-3c19-38d5-ed51-5bf195e61965"},
+          {"name": "A2", "typeId": "afbc1d34-5c65-e8a1-6226-84be59697cb2"},
+          {"name": "A3", "typeId": "cc1450a8-c61a-8715-5533-2175e5923685"}
+        ]
+      },
+      {
+        "name": "Psychic Scream (Turret)",
+        "id": "8477-2d15-92e2-bb73",
+        "hidden": false,
+        "typeId": "51c4cbbb-feba-838a-7356-102e85a51f40",
+        "typeName": "Vehicle Weapons",
+        "characteristics": [
+          {"name": "Mount", "$text": "Turret", "typeId": "99494c30-5918-3c34-1ea8-5fd2a3a35acb"},
+          {"name": "Range", "$text": "3", "typeId": "426f1c91-a24f-c1e2-6c5d-0b056331dce9"},
+          {"name": "S1", "$text": "*/1", "typeId": "94a02cd9-1473-5a5f-cddd-481f20e61e6e"},
+          {"name": "S2", "$text": "*/1", "typeId": "a645204b-207d-2884-31bf-8052544ebe0f"},
+          {"name": "S3", "$text": "*/1", "typeId": "144e20c5-fee5-87da-d142-43ee6b13d299"},
+          {"name": "S4", "$text": "*/1", "typeId": "f8d85935-dc8d-ceab-8b59-185af6f07e21"},
+          {"name": "V1", "$text": "*/2", "typeId": "0de14c52-6109-fb8b-5a4c-f4c28b81e724"},
+          {"name": "V2", "$text": "*/2", "typeId": "29107c7e-8b35-1352-b0e8-8274e8e6fc9e"},
+          {"name": "V3", "$text": "*/2", "typeId": "7d9919e5-211a-348d-cc4a-75f55034aa11"},
+          {"name": "V4", "$text": "*/3", "typeId": "5126abc7-3036-a560-473c-95cc1ebd6083"},
+          {"name": "V5", "$text": "*/3", "typeId": "10e6e9fa-5b07-60dc-7c21-43fd0d321972"},
+          {"name": "V6", "$text": "*/4", "typeId": "f39e3ba7-f0f6-e8ce-827a-9f36af8f38b4"},
+          {"name": "V7", "$text": "*/4", "typeId": "95df902a-0d91-60fb-d501-90ba12e3f256"},
+          {"name": "A1", "$text": "*/4", "typeId": "3d408739-3c19-38d5-ed51-5bf195e61965"},
+          {"name": "A2", "$text": "*/4", "typeId": "afbc1d34-5c65-e8a1-6226-84be59697cb2"},
+          {"name": "A3", "$text": "*/3", "typeId": "cc1450a8-c61a-8715-5533-2175e5923685"}
+        ]
+      },
+      {
+        "name": "Claws (Turret) ",
+        "id": "43a2-fd38-781f-c387",
+        "hidden": false,
+        "typeId": "51c4cbbb-feba-838a-7356-102e85a51f40",
+        "typeName": "Vehicle Weapons",
+        "characteristics": [
+          {"name": "Mount", "$text": "Turret", "typeId": "99494c30-5918-3c34-1ea8-5fd2a3a35acb"},
+          {"name": "Range", "$text": "C", "typeId": "426f1c91-a24f-c1e2-6c5d-0b056331dce9"},
+          {"name": "S1", "$text": "4/1", "typeId": "94a02cd9-1473-5a5f-cddd-481f20e61e6e"},
+          {"name": "S2", "$text": "4/1", "typeId": "a645204b-207d-2884-31bf-8052544ebe0f"},
+          {"name": "S3", "$text": "4/1", "typeId": "144e20c5-fee5-87da-d142-43ee6b13d299"},
+          {"name": "S4", "$text": "4/1", "typeId": "f8d85935-dc8d-ceab-8b59-185af6f07e21"},
+          {"name": "V1", "$text": "2/4", "typeId": "0de14c52-6109-fb8b-5a4c-f4c28b81e724"},
+          {"name": "V2", "$text": "2/4", "typeId": "29107c7e-8b35-1352-b0e8-8274e8e6fc9e"},
+          {"name": "V3", "$text": "2/4", "typeId": "7d9919e5-211a-348d-cc4a-75f55034aa11"},
+          {"name": "V4", "$text": "2/3", "typeId": "5126abc7-3036-a560-473c-95cc1ebd6083"},
+          {"name": "V5", "$text": "2/3", "typeId": "10e6e9fa-5b07-60dc-7c21-43fd0d321972"},
+          {"name": "V6", "$text": "2/3", "typeId": "f39e3ba7-f0f6-e8ce-827a-9f36af8f38b4"},
+          {"name": "V7", "$text": "2/2", "typeId": "95df902a-0d91-60fb-d501-90ba12e3f256"},
+          {"name": "A1", "typeId": "3d408739-3c19-38d5-ed51-5bf195e61965"},
+          {"name": "A2", "typeId": "afbc1d34-5c65-e8a1-6226-84be59697cb2"},
+          {"name": "A3", "typeId": "cc1450a8-c61a-8715-5533-2175e5923685"}
+        ]
+      },
+      {
+        "name": "Flamethrower (Turret)",
+        "id": "0226-c4f5-ad23-a125",
+        "hidden": false,
+        "typeId": "51c4cbbb-feba-838a-7356-102e85a51f40",
+        "typeName": "Vehicle Weapons",
+        "characteristics": [
+          {"name": "Mount", "$text": "Turret", "typeId": "99494c30-5918-3c34-1ea8-5fd2a3a35acb"},
+          {"name": "Range", "$text": "2", "typeId": "426f1c91-a24f-c1e2-6c5d-0b056331dce9"},
+          {"name": "S1", "$text": "*/1", "typeId": "94a02cd9-1473-5a5f-cddd-481f20e61e6e"},
+          {"name": "S2", "$text": "*/1", "typeId": "a645204b-207d-2884-31bf-8052544ebe0f"},
+          {"name": "S3", "$text": "*/1", "typeId": "144e20c5-fee5-87da-d142-43ee6b13d299"},
+          {"name": "S4", "$text": "*/1", "typeId": "f8d85935-dc8d-ceab-8b59-185af6f07e21"},
+          {"name": "V1", "$text": "*/#", "typeId": "0de14c52-6109-fb8b-5a4c-f4c28b81e724"},
+          {"name": "V2", "$text": "*/#", "typeId": "29107c7e-8b35-1352-b0e8-8274e8e6fc9e"},
+          {"name": "V3", "$text": "*/2", "typeId": "7d9919e5-211a-348d-cc4a-75f55034aa11"},
+          {"name": "V4", "$text": "*/2", "typeId": "5126abc7-3036-a560-473c-95cc1ebd6083"},
+          {"name": "V5", "$text": "*/2", "typeId": "10e6e9fa-5b07-60dc-7c21-43fd0d321972"},
+          {"name": "V6", "$text": "*/2", "typeId": "f39e3ba7-f0f6-e8ce-827a-9f36af8f38b4"},
+          {"name": "V7", "$text": "*/2", "typeId": "95df902a-0d91-60fb-d501-90ba12e3f256"},
+          {"name": "A1", "typeId": "3d408739-3c19-38d5-ed51-5bf195e61965"},
+          {"name": "A2", "typeId": "afbc1d34-5c65-e8a1-6226-84be59697cb2"},
+          {"name": "A3", "typeId": "cc1450a8-c61a-8715-5533-2175e5923685"}
+        ]
+      },
+      {
+        "name": "Machinegun (Front)",
+        "id": "b684-ad97-a5eb-bc82",
+        "hidden": false,
+        "typeId": "51c4cbbb-feba-838a-7356-102e85a51f40",
+        "typeName": "Vehicle Weapons",
+        "characteristics": [
+          {"name": "Mount", "$text": "Front", "typeId": "99494c30-5918-3c34-1ea8-5fd2a3a35acb"},
+          {"name": "Range", "$text": "6", "typeId": "426f1c91-a24f-c1e2-6c5d-0b056331dce9"},
+          {"name": "S1", "$text": "7/1", "typeId": "94a02cd9-1473-5a5f-cddd-481f20e61e6e"},
+          {"name": "S2", "$text": "6/1", "typeId": "a645204b-207d-2884-31bf-8052544ebe0f"},
+          {"name": "S3", "$text": "4/1", "typeId": "144e20c5-fee5-87da-d142-43ee6b13d299"},
+          {"name": "S4", "$text": "2/1", "typeId": "f8d85935-dc8d-ceab-8b59-185af6f07e21"},
+          {"name": "V1", "$text": "4/1", "typeId": "0de14c52-6109-fb8b-5a4c-f4c28b81e724"},
+          {"name": "V2", "$text": "2/1", "typeId": "29107c7e-8b35-1352-b0e8-8274e8e6fc9e"},
+          {"name": "V3", "typeId": "7d9919e5-211a-348d-cc4a-75f55034aa11"},
+          {"name": "V4", "typeId": "5126abc7-3036-a560-473c-95cc1ebd6083"},
+          {"name": "V5", "typeId": "10e6e9fa-5b07-60dc-7c21-43fd0d321972"},
+          {"name": "V6", "typeId": "f39e3ba7-f0f6-e8ce-827a-9f36af8f38b4"},
+          {"name": "V7", "typeId": "95df902a-0d91-60fb-d501-90ba12e3f256"},
+          {"name": "A1", "typeId": "3d408739-3c19-38d5-ed51-5bf195e61965"},
+          {"name": "A2", "typeId": "afbc1d34-5c65-e8a1-6226-84be59697cb2"},
+          {"name": "A3", "typeId": "cc1450a8-c61a-8715-5533-2175e5923685"}
+        ]
+      },
+      {
+        "name": "Old Submachine Gun",
+        "id": "8960-3905-1bd5-66fc",
+        "hidden": false,
+        "typeId": "6c4a1962-9409-6e62-9ea7-e81c4935e4fa",
+        "typeName": "Weapons",
+        "characteristics": [
+          {"name": "Range", "$text": "3", "typeId": "382f5f95-0919-db20-9901-aa54bc211abf"},
+          {"name": "S1", "$text": "4/1", "typeId": "9f313303-9a76-64ed-6657-e3b18cdf1022"},
+          {"name": "S2", "$text": "3/1", "typeId": "2fd57814-fb96-57cd-78e5-048c1e328a32"},
+          {"name": "S3", "$text": "2/1", "typeId": "21997c06-620b-2dc6-ee6e-6f0b06c06b70"},
+          {"name": "S4", "$text": "1/1", "typeId": "9c177689-a2b1-8777-3393-bd39db9df6f9"},
+          {"name": "V1", "$text": "2/1", "typeId": "4acce298-41c6-ac29-6442-02e5e62f87c5"},
+          {"name": "V2", "typeId": "ae7f079b-f6e8-7a6e-fa5c-8448667ec4e1"},
+          {"name": "V3", "typeId": "dd544bcd-65f3-f239-9b6e-9a6342e49bac"},
+          {"name": "V4", "typeId": "a27828e2-0dc0-c181-1699-be334623891d"},
+          {"name": "V5", "typeId": "2e7ddbf4-add2-7c6a-e399-f39b4cddfb09"},
+          {"name": "V6", "typeId": "c95029b6-a3de-69ec-b3f0-0d150370d270"},
+          {"name": "V7", "typeId": "36d7cfe6-023a-0dfe-e736-812d153c4fcc"},
+          {"name": "A1", "typeId": "bf377d08-6032-da4e-f38f-cab8ee40f265"},
+          {"name": "A2", "typeId": "0bb5675e-a53a-ae6e-1343-8cd4702c13a7"},
+          {"name": "A3", "typeId": "4946dc2d-5011-1098-c878-f3ab3bc8477f"}
+        ]
+      },
+      {
+        "name": "Fungi From Yuggoth",
+        "id": "9bcd-8106-1c3f-9f02",
+        "hidden": false,
+        "typeId": "6c4a1962-9409-6e62-9ea7-e81c4935e4fa",
+        "typeName": "Weapons",
+        "characteristics": [
+          {"name": "Range", "$text": "1", "typeId": "382f5f95-0919-db20-9901-aa54bc211abf"},
+          {"name": "S1", "$text": "*/1", "typeId": "9f313303-9a76-64ed-6657-e3b18cdf1022"},
+          {"name": "S2", "$text": "*/1", "typeId": "2fd57814-fb96-57cd-78e5-048c1e328a32"},
+          {"name": "S3", "$text": "*/1", "typeId": "21997c06-620b-2dc6-ee6e-6f0b06c06b70"},
+          {"name": "S4", "$text": "*/1", "typeId": "9c177689-a2b1-8777-3393-bd39db9df6f9"},
+          {"name": "V1", "$text": "4/1", "typeId": "4acce298-41c6-ac29-6442-02e5e62f87c5"},
+          {"name": "V2", "$text": "3/1", "typeId": "ae7f079b-f6e8-7a6e-fa5c-8448667ec4e1"},
+          {"name": "V3", "$text": "2/1", "typeId": "dd544bcd-65f3-f239-9b6e-9a6342e49bac"},
+          {"name": "V4", "$text": "1/1", "typeId": "a27828e2-0dc0-c181-1699-be334623891d"},
+          {"name": "V5", "$text": "1/1", "typeId": "2e7ddbf4-add2-7c6a-e399-f39b4cddfb09"},
+          {"name": "V6", "$text": "1/1", "typeId": "c95029b6-a3de-69ec-b3f0-0d150370d270"},
+          {"name": "V7", "typeId": "36d7cfe6-023a-0dfe-e736-812d153c4fcc"},
+          {"name": "A1", "typeId": "bf377d08-6032-da4e-f38f-cab8ee40f265"},
+          {"name": "A2", "typeId": "0bb5675e-a53a-ae6e-1343-8cd4702c13a7"},
+          {"name": "A3", "typeId": "4946dc2d-5011-1098-c878-f3ab3bc8477f"}
+        ]
+      },
+      {
+        "name": "Claws",
+        "id": "4342-df61-9a54-6a52",
+        "hidden": false,
+        "typeId": "6c4a1962-9409-6e62-9ea7-e81c4935e4fa",
+        "typeName": "Weapons",
+        "characteristics": [
+          {"name": "Range", "$text": "C", "typeId": "382f5f95-0919-db20-9901-aa54bc211abf"},
+          {"name": "S1", "$text": "2/1", "typeId": "9f313303-9a76-64ed-6657-e3b18cdf1022"},
+          {"name": "S2", "$text": "2/1", "typeId": "2fd57814-fb96-57cd-78e5-048c1e328a32"},
+          {"name": "S3", "$text": "2/1", "typeId": "21997c06-620b-2dc6-ee6e-6f0b06c06b70"},
+          {"name": "S4", "$text": "2/1", "typeId": "9c177689-a2b1-8777-3393-bd39db9df6f9"},
+          {"name": "V1", "$text": "2/2", "typeId": "4acce298-41c6-ac29-6442-02e5e62f87c5"},
+          {"name": "V2", "$text": "2/2", "typeId": "ae7f079b-f6e8-7a6e-fa5c-8448667ec4e1"},
+          {"name": "V3", "$text": "2/2", "typeId": "dd544bcd-65f3-f239-9b6e-9a6342e49bac"},
+          {"name": "V4", "$text": "2/2", "typeId": "a27828e2-0dc0-c181-1699-be334623891d"},
+          {"name": "V5", "$text": "2/2", "typeId": "2e7ddbf4-add2-7c6a-e399-f39b4cddfb09"},
+          {"name": "V6", "$text": "2/2", "typeId": "c95029b6-a3de-69ec-b3f0-0d150370d270"},
+          {"name": "V7", "$text": "2/2", "typeId": "36d7cfe6-023a-0dfe-e736-812d153c4fcc"},
+          {"name": "A1", "$text": "2/2", "typeId": "bf377d08-6032-da4e-f38f-cab8ee40f265"},
+          {"name": "A2", "$text": "2/1", "typeId": "0bb5675e-a53a-ae6e-1343-8cd4702c13a7"},
+          {"name": "A3", "$text": "1/1", "typeId": "4946dc2d-5011-1098-c878-f3ab3bc8477f"}
+        ]
+      },
+      {
+        "name": "Sacrificial Dagger",
+        "id": "d986-9cd7-bdb2-ecb9",
+        "hidden": false,
+        "typeId": "6c4a1962-9409-6e62-9ea7-e81c4935e4fa",
+        "typeName": "Weapons",
+        "characteristics": [
+          {"name": "Range", "$text": "C", "typeId": "382f5f95-0919-db20-9901-aa54bc211abf"},
+          {"name": "S1", "$text": "2/1", "typeId": "9f313303-9a76-64ed-6657-e3b18cdf1022"},
+          {"name": "S2", "$text": "2/1", "typeId": "2fd57814-fb96-57cd-78e5-048c1e328a32"},
+          {"name": "S3", "$text": "2/1", "typeId": "21997c06-620b-2dc6-ee6e-6f0b06c06b70"},
+          {"name": "S4", "$text": "2/1", "typeId": "9c177689-a2b1-8777-3393-bd39db9df6f9"},
+          {"name": "V1", "typeId": "4acce298-41c6-ac29-6442-02e5e62f87c5"},
+          {"name": "V2", "typeId": "ae7f079b-f6e8-7a6e-fa5c-8448667ec4e1"},
+          {"name": "V3", "typeId": "dd544bcd-65f3-f239-9b6e-9a6342e49bac"},
+          {"name": "V4", "typeId": "a27828e2-0dc0-c181-1699-be334623891d"},
+          {"name": "V5", "typeId": "2e7ddbf4-add2-7c6a-e399-f39b4cddfb09"},
+          {"name": "V6", "typeId": "c95029b6-a3de-69ec-b3f0-0d150370d270"},
+          {"name": "V7", "typeId": "36d7cfe6-023a-0dfe-e736-812d153c4fcc"},
+          {"name": "A1", "typeId": "bf377d08-6032-da4e-f38f-cab8ee40f265"},
+          {"name": "A2", "typeId": "0bb5675e-a53a-ae6e-1343-8cd4702c13a7"},
+          {"name": "A3", "typeId": "4946dc2d-5011-1098-c878-f3ab3bc8477f"}
+        ]
+      },
+      {
+        "name": "Abomination's Bite",
+        "id": "84bb-085a-70ab-d5b3",
+        "hidden": false,
+        "typeId": "6c4a1962-9409-6e62-9ea7-e81c4935e4fa",
+        "typeName": "Weapons",
+        "characteristics": [
+          {"name": "Range", "$text": "C", "typeId": "382f5f95-0919-db20-9901-aa54bc211abf"},
+          {"name": "S1", "$text": "6/1", "typeId": "9f313303-9a76-64ed-6657-e3b18cdf1022"},
+          {"name": "S2", "$text": "5/1", "typeId": "2fd57814-fb96-57cd-78e5-048c1e328a32"},
+          {"name": "S3", "$text": "4/1", "typeId": "21997c06-620b-2dc6-ee6e-6f0b06c06b70"},
+          {"name": "S4", "$text": "3/1", "typeId": "9c177689-a2b1-8777-3393-bd39db9df6f9"},
+          {"name": "V1", "$text": "2/1", "typeId": "4acce298-41c6-ac29-6442-02e5e62f87c5"},
+          {"name": "V2", "$text": "1/1", "typeId": "ae7f079b-f6e8-7a6e-fa5c-8448667ec4e1"},
+          {"name": "V3", "typeId": "dd544bcd-65f3-f239-9b6e-9a6342e49bac"},
+          {"name": "V4", "typeId": "a27828e2-0dc0-c181-1699-be334623891d"},
+          {"name": "V5", "typeId": "2e7ddbf4-add2-7c6a-e399-f39b4cddfb09"},
+          {"name": "V6", "typeId": "c95029b6-a3de-69ec-b3f0-0d150370d270"},
+          {"name": "V7", "typeId": "36d7cfe6-023a-0dfe-e736-812d153c4fcc"},
+          {"name": "A1", "typeId": "bf377d08-6032-da4e-f38f-cab8ee40f265"},
+          {"name": "A2", "typeId": "0bb5675e-a53a-ae6e-1343-8cd4702c13a7"},
+          {"name": "A3", "typeId": "4946dc2d-5011-1098-c878-f3ab3bc8477f"}
+        ]
+      }
+    ],
+    "sharedRules": [
+      {
+        "name": "Possessed",
+        "id": "de46-2ead-1b56-32bd",
+        "description": "When this Hero is at full Health she uses the Lilith profile. When she has lost at least one Health she uses the Possessed profile.",
+        "hidden": false
+      }
+    ]
+  }
+}
